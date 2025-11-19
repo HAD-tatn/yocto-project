@@ -1,0 +1,875 @@
+<RCC>
+  <qresource prefix="icon">
+    <file>icon/activity.svg</file>
+    <file>icon/airplay.svg</file>
+    <file>icon/alert-circle.svg</file>
+    <file>icon/alert-octagon.svg</file>
+    <file>icon/alert-triangle.svg</file>
+    <file>icon/align-center.svg</file>
+    <file>icon/align-justify.svg</file>
+    <file>icon/align-left.svg</file>
+    <file>icon/align-right.svg</file>
+    <file>icon/anchor.svg</file>
+    <file>icon/aperture.svg</file>
+    <file>icon/archive.svg</file>
+    <file>icon/arrow-down.svg</file>
+    <file>icon/arrow-down-circle.svg</file>
+    <file>icon/arrow-down-left.svg</file>
+    <file>icon/arrow-down-right.svg</file>
+    <file>icon/arrow-left.svg</file>
+    <file>icon/arrow-left-circle.svg</file>
+    <file>icon/arrow-right.svg</file>
+    <file>icon/arrow-right-circle.svg</file>
+    <file>icon/arrow-up.svg</file>
+    <file>icon/arrow-up-circle.svg</file>
+    <file>icon/arrow-up-left.svg</file>
+    <file>icon/arrow-up-right.svg</file>
+    <file>icon/at-sign.svg</file>
+    <file>icon/award.svg</file>
+    <file>icon/bar-chart.svg</file>
+    <file>icon/bar-chart-2.svg</file>
+    <file>icon/battery.svg</file>
+    <file>icon/battery-charging.svg</file>
+    <file>icon/bell.svg</file>
+    <file>icon/bell-off.svg</file>
+    <file>icon/bluetooth.svg</file>
+    <file>icon/bold.svg</file>
+    <file>icon/book.svg</file>
+    <file>icon/bookmark.svg</file>
+    <file>icon/book-open.svg</file>
+    <file>icon/box.svg</file>
+    <file>icon/briefcase.svg</file>
+    <file>icon/calendar.svg</file>
+    <file>icon/camera.svg</file>
+    <file>icon/camera-off.svg</file>
+    <file>icon/cast.svg</file>
+    <file>icon/check.svg</file>
+    <file>icon/check-circle.svg</file>
+    <file>icon/check-square.svg</file>
+    <file>icon/chevron-down.svg</file>
+    <file>icon/chevron-left.svg</file>
+    <file>icon/chevron-right.svg</file>
+    <file>icon/chevrons-down.svg</file>
+    <file>icon/chevrons-left.svg</file>
+    <file>icon/chevrons-right.svg</file>
+    <file>icon/chevrons-up.svg</file>
+    <file>icon/chevron-up.svg</file>
+    <file>icon/chrome.svg</file>
+    <file>icon/circle.svg</file>
+    <file>icon/clipboard.svg</file>
+    <file>icon/clock.svg</file>
+    <file>icon/cloud.svg</file>
+    <file>icon/cloud-drizzle.svg</file>
+    <file>icon/cloud-lightning.svg</file>
+    <file>icon/cloud-off.svg</file>
+    <file>icon/cloud-rain.svg</file>
+    <file>icon/cloud-snow.svg</file>
+    <file>icon/code.svg</file>
+    <file>icon/codepen.svg</file>
+    <file>icon/codesandbox.svg</file>
+    <file>icon/coffee.svg</file>
+    <file>icon/columns.svg</file>
+    <file>icon/command.svg</file>
+    <file>icon/compass.svg</file>
+    <file>icon/copy.svg</file>
+    <file>icon/corner-down-left.svg</file>
+    <file>icon/corner-down-right.svg</file>
+    <file>icon/corner-left-down.svg</file>
+    <file>icon/corner-left-up.svg</file>
+    <file>icon/corner-right-down.svg</file>
+    <file>icon/corner-right-up.svg</file>
+    <file>icon/corner-up-left.svg</file>
+    <file>icon/corner-up-right.svg</file>
+    <file>icon/cpu.svg</file>
+    <file>icon/credit-card.svg</file>
+    <file>icon/crop.svg</file>
+    <file>icon/crosshair.svg</file>
+    <file>icon/database.svg</file>
+    <file>icon/delete.svg</file>
+    <file>icon/disc.svg</file>
+    <file>icon/divide.svg</file>
+    <file>icon/divide-circle.svg</file>
+    <file>icon/divide-square.svg</file>
+    <file>icon/dollar-sign.svg</file>
+    <file>icon/download.svg</file>
+    <file>icon/download-cloud.svg</file>
+    <file>icon/dribbble.svg</file>
+    <file>icon/droplet.svg</file>
+    <file>icon/edit.svg</file>
+    <file>icon/edit-2.svg</file>
+    <file>icon/edit-3.svg</file>
+    <file>icon/external-link.svg</file>
+    <file>icon/eye.svg</file>
+    <file>icon/eye-off.svg</file>
+    <file>icon/facebook.svg</file>
+    <file>icon/fast-forward.svg</file>
+    <file>icon/feather.svg</file>
+    <file>icon/figma.svg</file>
+    <file>icon/file.svg</file>
+    <file>icon/file-minus.svg</file>
+    <file>icon/file-plus.svg</file>
+    <file>icon/file-text.svg</file>
+    <file>icon/film.svg</file>
+    <file>icon/filter.svg</file>
+    <file>icon/flag.svg</file>
+    <file>icon/folder.svg</file>
+    <file>icon/folder-minus.svg</file>
+    <file>icon/folder-plus.svg</file>
+    <file>icon/framer.svg</file>
+    <file>icon/frown.svg</file>
+    <file>icon/gift.svg</file>
+    <file>icon/git-branch.svg</file>
+    <file>icon/git-commit.svg</file>
+    <file>icon/github.svg</file>
+    <file>icon/gitlab.svg</file>
+    <file>icon/git-merge.svg</file>
+    <file>icon/git-pull-request.svg</file>
+    <file>icon/globe.svg</file>
+    <file>icon/grid.svg</file>
+    <file>icon/hard-drive.svg</file>
+    <file>icon/hash.svg</file>
+    <file>icon/headphones.svg</file>
+    <file>icon/heart.svg</file>
+    <file>icon/help-circle.svg</file>
+    <file>icon/hexagon.svg</file>
+    <file>icon/home.svg</file>
+    <file>icon/image.svg</file>
+    <file>icon/inbox.svg</file>
+    <file>icon/info.svg</file>
+    <file>icon/instagram.svg</file>
+    <file>icon/italic.svg</file>
+    <file>icon/key.svg</file>
+    <file>icon/layers.svg</file>
+    <file>icon/layout.svg</file>
+    <file>icon/life-buoy.svg</file>
+    <file>icon/link.svg</file>
+    <file>icon/link-2.svg</file>
+    <file>icon/linkedin.svg</file>
+    <file>icon/list.svg</file>
+    <file>icon/loader.svg</file>
+    <file>icon/lock.svg</file>
+    <file>icon/log-in.svg</file>
+    <file>icon/log-out.svg</file>
+    <file>icon/mail.svg</file>
+    <file>icon/map.svg</file>
+    <file>icon/map-pin.svg</file>
+    <file>icon/maximize.svg</file>
+    <file>icon/maximize-2.svg</file>
+    <file>icon/meh.svg</file>
+    <file>icon/menu.svg</file>
+    <file>icon/message-circle.svg</file>
+    <file>icon/message-square.svg</file>
+    <file>icon/mic.svg</file>
+    <file>icon/mic-off.svg</file>
+    <file>icon/minimize.svg</file>
+    <file>icon/minimize-2.svg</file>
+    <file>icon/minus.svg</file>
+    <file>icon/minus-circle.svg</file>
+    <file>icon/minus-square.svg</file>
+    <file>icon/monitor.svg</file>
+    <file>icon/moon.svg</file>
+    <file>icon/more-horizontal.svg</file>
+    <file>icon/more-vertical.svg</file>
+    <file>icon/mouse-pointer.svg</file>
+    <file>icon/move.svg</file>
+    <file>icon/music.svg</file>
+    <file>icon/navigation.svg</file>
+    <file>icon/navigation-2.svg</file>
+    <file>icon/octagon.svg</file>
+    <file>icon/package.svg</file>
+    <file>icon/paperclip.svg</file>
+    <file>icon/pause.svg</file>
+    <file>icon/pause-circle.svg</file>
+    <file>icon/pen-tool.svg</file>
+    <file>icon/percent.svg</file>
+    <file>icon/phone.svg</file>
+    <file>icon/phone-call.svg</file>
+    <file>icon/phone-forwarded.svg</file>
+    <file>icon/phone-incoming.svg</file>
+    <file>icon/phone-missed.svg</file>
+    <file>icon/phone-off.svg</file>
+    <file>icon/phone-outgoing.svg</file>
+    <file>icon/pie-chart.svg</file>
+    <file>icon/play.svg</file>
+    <file>icon/play-circle.svg</file>
+    <file>icon/plus.svg</file>
+    <file>icon/plus-circle.svg</file>
+    <file>icon/plus-square.svg</file>
+    <file>icon/pocket.svg</file>
+    <file>icon/power.svg</file>
+    <file>icon/printer.svg</file>
+    <file>icon/radio.svg</file>
+    <file>icon/refresh-ccw.svg</file>
+    <file>icon/refresh-cw.svg</file>
+    <file>icon/repeat.svg</file>
+    <file>icon/rewind.svg</file>
+    <file>icon/rotate-ccw.svg</file>
+    <file>icon/rotate-cw.svg</file>
+    <file>icon/rss.svg</file>
+    <file>icon/save.svg</file>
+    <file>icon/scissors.svg</file>
+    <file>icon/search.svg</file>
+    <file>icon/send.svg</file>
+    <file>icon/server.svg</file>
+    <file>icon/settings.svg</file>
+    <file>icon/share.svg</file>
+    <file>icon/share-2.svg</file>
+    <file>icon/shield.svg</file>
+    <file>icon/shield-off.svg</file>
+    <file>icon/shopping-bag.svg</file>
+    <file>icon/shopping-cart.svg</file>
+    <file>icon/shuffle.svg</file>
+    <file>icon/sidebar.svg</file>
+    <file>icon/skip-back.svg</file>
+    <file>icon/skip-forward.svg</file>
+    <file>icon/slack.svg</file>
+    <file>icon/slash.svg</file>
+    <file>icon/sliders.svg</file>
+    <file>icon/smartphone.svg</file>
+    <file>icon/smile.svg</file>
+    <file>icon/speaker.svg</file>
+    <file>icon/square.svg</file>
+    <file>icon/star.svg</file>
+    <file>icon/stop-circle.svg</file>
+    <file>icon/sun.svg</file>
+    <file>icon/sunrise.svg</file>
+    <file>icon/sunset.svg</file>
+    <file>icon/table.svg</file>
+    <file>icon/tablet.svg</file>
+    <file>icon/tag.svg</file>
+    <file>icon/target.svg</file>
+    <file>icon/terminal.svg</file>
+    <file>icon/thermometer.svg</file>
+    <file>icon/thumbs-down.svg</file>
+    <file>icon/thumbs-up.svg</file>
+    <file>icon/toggle-left.svg</file>
+    <file>icon/toggle-right.svg</file>
+    <file>icon/tool.svg</file>
+    <file>icon/trash.svg</file>
+    <file>icon/trash-2.svg</file>
+    <file>icon/trello.svg</file>
+    <file>icon/trending-down.svg</file>
+    <file>icon/trending-up.svg</file>
+    <file>icon/triangle.svg</file>
+    <file>icon/truck.svg</file>
+    <file>icon/tv.svg</file>
+    <file>icon/twitch.svg</file>
+    <file>icon/twitter.svg</file>
+    <file>icon/type.svg</file>
+    <file>icon/umbrella.svg</file>
+    <file>icon/underline.svg</file>
+    <file>icon/unlock.svg</file>
+    <file>icon/upload.svg</file>
+    <file>icon/upload-cloud.svg</file>
+    <file>icon/user.svg</file>
+    <file>icon/user-check.svg</file>
+    <file>icon/user-minus.svg</file>
+    <file>icon/user-plus.svg</file>
+    <file>icon/users.svg</file>
+    <file>icon/user-x.svg</file>
+    <file>icon/video.svg</file>
+    <file>icon/video-off.svg</file>
+    <file>icon/voicemail.svg</file>
+    <file>icon/volume.svg</file>
+    <file>icon/volume-1.svg</file>
+    <file>icon/volume-2.svg</file>
+    <file>icon/volume-x.svg</file>
+    <file>icon/watch.svg</file>
+    <file>icon/wifi.svg</file>
+    <file>icon/wifi-off.svg</file>
+    <file>icon/wind.svg</file>
+    <file>icon/x.svg</file>
+    <file>icon/x-circle.svg</file>
+    <file>icon/x-octagon.svg</file>
+    <file>icon/x-square.svg</file>
+    <file>icon/youtube.svg</file>
+    <file>icon/zap.svg</file>
+    <file>icon/zap-off.svg</file>
+    <file>icon/zoom-in.svg</file>
+    <file>icon/zoom-out.svg</file>
+  </qresource>
+  <qresource prefix="icon-purple">
+    <file>icon-purple/activity.svg</file>
+    <file>icon-purple/airplay.svg</file>
+    <file>icon-purple/alert-circle.svg</file>
+    <file>icon-purple/alert-octagon.svg</file>
+    <file>icon-purple/alert-triangle.svg</file>
+    <file>icon-purple/align-center.svg</file>
+    <file>icon-purple/align-justify.svg</file>
+    <file>icon-purple/align-left.svg</file>
+    <file>icon-purple/align-right.svg</file>
+    <file>icon-purple/anchor.svg</file>
+    <file>icon-purple/aperture.svg</file>
+    <file>icon-purple/archive.svg</file>
+    <file>icon-purple/arrow-down.svg</file>
+    <file>icon-purple/arrow-down-circle.svg</file>
+    <file>icon-purple/arrow-down-left.svg</file>
+    <file>icon-purple/arrow-down-right.svg</file>
+    <file>icon-purple/arrow-left.svg</file>
+    <file>icon-purple/arrow-left-circle.svg</file>
+    <file>icon-purple/arrow-right.svg</file>
+    <file>icon-purple/arrow-right-circle.svg</file>
+    <file>icon-purple/arrow-up.svg</file>
+    <file>icon-purple/arrow-up-circle.svg</file>
+    <file>icon-purple/arrow-up-left.svg</file>
+    <file>icon-purple/arrow-up-right.svg</file>
+    <file>icon-purple/at-sign.svg</file>
+    <file>icon-purple/award.svg</file>
+    <file>icon-purple/bar-chart.svg</file>
+    <file>icon-purple/bar-chart-2.svg</file>
+    <file>icon-purple/battery.svg</file>
+    <file>icon-purple/battery-charging.svg</file>
+    <file>icon-purple/bell.svg</file>
+    <file>icon-purple/bell-off.svg</file>
+    <file>icon-purple/bluetooth.svg</file>
+    <file>icon-purple/bold.svg</file>
+    <file>icon-purple/book.svg</file>
+    <file>icon-purple/bookmark.svg</file>
+    <file>icon-purple/book-open.svg</file>
+    <file>icon-purple/box.svg</file>
+    <file>icon-purple/briefcase.svg</file>
+    <file>icon-purple/calendar.svg</file>
+    <file>icon-purple/camera.svg</file>
+    <file>icon-purple/camera-off.svg</file>
+    <file>icon-purple/cast.svg</file>
+    <file>icon-purple/check.svg</file>
+    <file>icon-purple/check-circle.svg</file>
+    <file>icon-purple/check-square.svg</file>
+    <file>icon-purple/chevron-down.svg</file>
+    <file>icon-purple/chevron-left.svg</file>
+    <file>icon-purple/chevron-right.svg</file>
+    <file>icon-purple/chevrons-down.svg</file>
+    <file>icon-purple/chevrons-left.svg</file>
+    <file>icon-purple/chevrons-right.svg</file>
+    <file>icon-purple/chevrons-up.svg</file>
+    <file>icon-purple/chevron-up.svg</file>
+    <file>icon-purple/chrome.svg</file>
+    <file>icon-purple/circle.svg</file>
+    <file>icon-purple/clipboard.svg</file>
+    <file>icon-purple/clock.svg</file>
+    <file>icon-purple/cloud.svg</file>
+    <file>icon-purple/cloud-drizzle.svg</file>
+    <file>icon-purple/cloud-lightning.svg</file>
+    <file>icon-purple/cloud-off.svg</file>
+    <file>icon-purple/cloud-rain.svg</file>
+    <file>icon-purple/cloud-snow.svg</file>
+    <file>icon-purple/code.svg</file>
+    <file>icon-purple/codepen.svg</file>
+    <file>icon-purple/codesandbox.svg</file>
+    <file>icon-purple/coffee.svg</file>
+    <file>icon-purple/columns.svg</file>
+    <file>icon-purple/command.svg</file>
+    <file>icon-purple/compass.svg</file>
+    <file>icon-purple/copy.svg</file>
+    <file>icon-purple/corner-down-left.svg</file>
+    <file>icon-purple/corner-down-right.svg</file>
+    <file>icon-purple/corner-left-down.svg</file>
+    <file>icon-purple/corner-left-up.svg</file>
+    <file>icon-purple/corner-right-down.svg</file>
+    <file>icon-purple/corner-right-up.svg</file>
+    <file>icon-purple/corner-up-left.svg</file>
+    <file>icon-purple/corner-up-right.svg</file>
+    <file>icon-purple/cpu.svg</file>
+    <file>icon-purple/credit-card.svg</file>
+    <file>icon-purple/crop.svg</file>
+    <file>icon-purple/crosshair.svg</file>
+    <file>icon-purple/database.svg</file>
+    <file>icon-purple/delete.svg</file>
+    <file>icon-purple/disc.svg</file>
+    <file>icon-purple/divide.svg</file>
+    <file>icon-purple/divide-circle.svg</file>
+    <file>icon-purple/divide-square.svg</file>
+    <file>icon-purple/dollar-sign.svg</file>
+    <file>icon-purple/download.svg</file>
+    <file>icon-purple/download-cloud.svg</file>
+    <file>icon-purple/dribbble.svg</file>
+    <file>icon-purple/droplet.svg</file>
+    <file>icon-purple/edit.svg</file>
+    <file>icon-purple/edit-2.svg</file>
+    <file>icon-purple/edit-3.svg</file>
+    <file>icon-purple/external-link.svg</file>
+    <file>icon-purple/eye.svg</file>
+    <file>icon-purple/eye-off.svg</file>
+    <file>icon-purple/facebook.svg</file>
+    <file>icon-purple/fast-forward.svg</file>
+    <file>icon-purple/feather.svg</file>
+    <file>icon-purple/figma.svg</file>
+    <file>icon-purple/file.svg</file>
+    <file>icon-purple/file-minus.svg</file>
+    <file>icon-purple/file-plus.svg</file>
+    <file>icon-purple/file-text.svg</file>
+    <file>icon-purple/film.svg</file>
+    <file>icon-purple/filter.svg</file>
+    <file>icon-purple/flag.svg</file>
+    <file>icon-purple/folder.svg</file>
+    <file>icon-purple/folder-minus.svg</file>
+    <file>icon-purple/folder-plus.svg</file>
+    <file>icon-purple/framer.svg</file>
+    <file>icon-purple/frown.svg</file>
+    <file>icon-purple/gift.svg</file>
+    <file>icon-purple/git-branch.svg</file>
+    <file>icon-purple/git-commit.svg</file>
+    <file>icon-purple/github.svg</file>
+    <file>icon-purple/gitlab.svg</file>
+    <file>icon-purple/git-merge.svg</file>
+    <file>icon-purple/git-pull-request.svg</file>
+    <file>icon-purple/globe.svg</file>
+    <file>icon-purple/grid.svg</file>
+    <file>icon-purple/hard-drive.svg</file>
+    <file>icon-purple/hash.svg</file>
+    <file>icon-purple/headphones.svg</file>
+    <file>icon-purple/heart.svg</file>
+    <file>icon-purple/help-circle.svg</file>
+    <file>icon-purple/hexagon.svg</file>
+    <file>icon-purple/home.svg</file>
+    <file>icon-purple/image.svg</file>
+    <file>icon-purple/inbox.svg</file>
+    <file>icon-purple/info.svg</file>
+    <file>icon-purple/instagram.svg</file>
+    <file>icon-purple/italic.svg</file>
+    <file>icon-purple/key.svg</file>
+    <file>icon-purple/layers.svg</file>
+    <file>icon-purple/layout.svg</file>
+    <file>icon-purple/life-buoy.svg</file>
+    <file>icon-purple/link.svg</file>
+    <file>icon-purple/link-2.svg</file>
+    <file>icon-purple/linkedin.svg</file>
+    <file>icon-purple/list.svg</file>
+    <file>icon-purple/loader.svg</file>
+    <file>icon-purple/lock.svg</file>
+    <file>icon-purple/log-in.svg</file>
+    <file>icon-purple/log-out.svg</file>
+    <file>icon-purple/mail.svg</file>
+    <file>icon-purple/map.svg</file>
+    <file>icon-purple/map-pin.svg</file>
+    <file>icon-purple/maximize.svg</file>
+    <file>icon-purple/maximize-2.svg</file>
+    <file>icon-purple/meh.svg</file>
+    <file>icon-purple/menu.svg</file>
+    <file>icon-purple/message-circle.svg</file>
+    <file>icon-purple/message-square.svg</file>
+    <file>icon-purple/mic.svg</file>
+    <file>icon-purple/mic-off.svg</file>
+    <file>icon-purple/minimize.svg</file>
+    <file>icon-purple/minimize-2.svg</file>
+    <file>icon-purple/minus.svg</file>
+    <file>icon-purple/minus-circle.svg</file>
+    <file>icon-purple/minus-square.svg</file>
+    <file>icon-purple/monitor.svg</file>
+    <file>icon-purple/moon.svg</file>
+    <file>icon-purple/more-horizontal.svg</file>
+    <file>icon-purple/more-vertical.svg</file>
+    <file>icon-purple/mouse-pointer.svg</file>
+    <file>icon-purple/move.svg</file>
+    <file>icon-purple/music.svg</file>
+    <file>icon-purple/navigation.svg</file>
+    <file>icon-purple/navigation-2.svg</file>
+    <file>icon-purple/octagon.svg</file>
+    <file>icon-purple/package.svg</file>
+    <file>icon-purple/paperclip.svg</file>
+    <file>icon-purple/pause.svg</file>
+    <file>icon-purple/pause-circle.svg</file>
+    <file>icon-purple/pen-tool.svg</file>
+    <file>icon-purple/percent.svg</file>
+    <file>icon-purple/phone.svg</file>
+    <file>icon-purple/phone-call.svg</file>
+    <file>icon-purple/phone-forwarded.svg</file>
+    <file>icon-purple/phone-incoming.svg</file>
+    <file>icon-purple/phone-missed.svg</file>
+    <file>icon-purple/phone-off.svg</file>
+    <file>icon-purple/phone-outgoing.svg</file>
+    <file>icon-purple/pie-chart.svg</file>
+    <file>icon-purple/play.svg</file>
+    <file>icon-purple/play-circle.svg</file>
+    <file>icon-purple/plus.svg</file>
+    <file>icon-purple/plus-circle.svg</file>
+    <file>icon-purple/plus-square.svg</file>
+    <file>icon-purple/pocket.svg</file>
+    <file>icon-purple/power.svg</file>
+    <file>icon-purple/printer.svg</file>
+    <file>icon-purple/radio.svg</file>
+    <file>icon-purple/refresh-ccw.svg</file>
+    <file>icon-purple/refresh-cw.svg</file>
+    <file>icon-purple/repeat.svg</file>
+    <file>icon-purple/rewind.svg</file>
+    <file>icon-purple/rotate-ccw.svg</file>
+    <file>icon-purple/rotate-cw.svg</file>
+    <file>icon-purple/rss.svg</file>
+    <file>icon-purple/save.svg</file>
+    <file>icon-purple/scissors.svg</file>
+    <file>icon-purple/search.svg</file>
+    <file>icon-purple/send.svg</file>
+    <file>icon-purple/server.svg</file>
+    <file>icon-purple/settings.svg</file>
+    <file>icon-purple/share.svg</file>
+    <file>icon-purple/share-2.svg</file>
+    <file>icon-purple/shield.svg</file>
+    <file>icon-purple/shield-off.svg</file>
+    <file>icon-purple/shopping-bag.svg</file>
+    <file>icon-purple/shopping-cart.svg</file>
+    <file>icon-purple/shuffle.svg</file>
+    <file>icon-purple/sidebar.svg</file>
+    <file>icon-purple/skip-back.svg</file>
+    <file>icon-purple/skip-forward.svg</file>
+    <file>icon-purple/slack.svg</file>
+    <file>icon-purple/slash.svg</file>
+    <file>icon-purple/sliders.svg</file>
+    <file>icon-purple/smartphone.svg</file>
+    <file>icon-purple/smile.svg</file>
+    <file>icon-purple/speaker.svg</file>
+    <file>icon-purple/square.svg</file>
+    <file>icon-purple/star.svg</file>
+    <file>icon-purple/stop-circle.svg</file>
+    <file>icon-purple/sun.svg</file>
+    <file>icon-purple/sunrise.svg</file>
+    <file>icon-purple/sunset.svg</file>
+    <file>icon-purple/table.svg</file>
+    <file>icon-purple/tablet.svg</file>
+    <file>icon-purple/tag.svg</file>
+    <file>icon-purple/target.svg</file>
+    <file>icon-purple/terminal.svg</file>
+    <file>icon-purple/thermometer.svg</file>
+    <file>icon-purple/thumbs-down.svg</file>
+    <file>icon-purple/thumbs-up.svg</file>
+    <file>icon-purple/toggle-left.svg</file>
+    <file>icon-purple/toggle-right.svg</file>
+    <file>icon-purple/tool.svg</file>
+    <file>icon-purple/trash.svg</file>
+    <file>icon-purple/trash-2.svg</file>
+    <file>icon-purple/trello.svg</file>
+    <file>icon-purple/trending-down.svg</file>
+    <file>icon-purple/trending-up.svg</file>
+    <file>icon-purple/triangle.svg</file>
+    <file>icon-purple/truck.svg</file>
+    <file>icon-purple/tv.svg</file>
+    <file>icon-purple/twitch.svg</file>
+    <file>icon-purple/twitter.svg</file>
+    <file>icon-purple/type.svg</file>
+    <file>icon-purple/umbrella.svg</file>
+    <file>icon-purple/underline.svg</file>
+    <file>icon-purple/unlock.svg</file>
+    <file>icon-purple/upload.svg</file>
+    <file>icon-purple/upload-cloud.svg</file>
+    <file>icon-purple/user.svg</file>
+    <file>icon-purple/user-check.svg</file>
+    <file>icon-purple/user-minus.svg</file>
+    <file>icon-purple/user-plus.svg</file>
+    <file>icon-purple/users.svg</file>
+    <file>icon-purple/user-x.svg</file>
+    <file>icon-purple/video.svg</file>
+    <file>icon-purple/video-off.svg</file>
+    <file>icon-purple/voicemail.svg</file>
+    <file>icon-purple/volume.svg</file>
+    <file>icon-purple/volume-1.svg</file>
+    <file>icon-purple/volume-2.svg</file>
+    <file>icon-purple/volume-x.svg</file>
+    <file>icon-purple/watch.svg</file>
+    <file>icon-purple/wifi.svg</file>
+    <file>icon-purple/wifi-off.svg</file>
+    <file>icon-purple/wind.svg</file>
+    <file>icon-purple/x.svg</file>
+    <file>icon-purple/x-circle.svg</file>
+    <file>icon-purple/x-octagon.svg</file>
+    <file>icon-purple/x-square.svg</file>
+    <file>icon-purple/youtube.svg</file>
+    <file>icon-purple/zap.svg</file>
+    <file>icon-purple/zap-off.svg</file>
+    <file>icon-purple/zoom-in.svg</file>
+    <file>icon-purple/zoom-out.svg</file>
+  </qresource>
+  <qresource prefix="icon-iot">
+    <file>icon-iot/dust.svg</file>
+    <file>icon-iot/humidity.svg</file>
+    <file>icon-iot/temp-high-svgrepo-com.svg</file>
+    <file>icon-iot/thermometer.svg</file>
+  </qresource>
+  <qresource prefix="icon blue">
+    <file>icon blue/activity.svg</file>
+    <file>icon blue/airplay.svg</file>
+    <file>icon blue/alert-circle.svg</file>
+    <file>icon blue/alert-octagon.svg</file>
+    <file>icon blue/alert-triangle.svg</file>
+    <file>icon blue/align-center.svg</file>
+    <file>icon blue/align-justify.svg</file>
+    <file>icon blue/align-left.svg</file>
+    <file>icon blue/align-right.svg</file>
+    <file>icon blue/anchor.svg</file>
+    <file>icon blue/aperture.svg</file>
+    <file>icon blue/archive.svg</file>
+    <file>icon blue/arrow-down.svg</file>
+    <file>icon blue/arrow-down-circle.svg</file>
+    <file>icon blue/arrow-down-left.svg</file>
+    <file>icon blue/arrow-down-right.svg</file>
+    <file>icon blue/arrow-left.svg</file>
+    <file>icon blue/arrow-left-circle.svg</file>
+    <file>icon blue/arrow-right.svg</file>
+    <file>icon blue/arrow-right-circle.svg</file>
+    <file>icon blue/arrow-up.svg</file>
+    <file>icon blue/arrow-up-circle.svg</file>
+    <file>icon blue/arrow-up-left.svg</file>
+    <file>icon blue/arrow-up-right.svg</file>
+    <file>icon blue/at-sign.svg</file>
+    <file>icon blue/award.svg</file>
+    <file>icon blue/bar-chart.svg</file>
+    <file>icon blue/bar-chart-2.svg</file>
+    <file>icon blue/battery.svg</file>
+    <file>icon blue/battery-charging.svg</file>
+    <file>icon blue/bell.svg</file>
+    <file>icon blue/bell-off.svg</file>
+    <file>icon blue/bluetooth.svg</file>
+    <file>icon blue/bold.svg</file>
+    <file>icon blue/book.svg</file>
+    <file>icon blue/bookmark.svg</file>
+    <file>icon blue/book-open.svg</file>
+    <file>icon blue/box.svg</file>
+    <file>icon blue/briefcase.svg</file>
+    <file>icon blue/calendar.svg</file>
+    <file>icon blue/camera.svg</file>
+    <file>icon blue/camera-off.svg</file>
+    <file>icon blue/cast.svg</file>
+    <file>icon blue/check.svg</file>
+    <file>icon blue/check-circle.svg</file>
+    <file>icon blue/check-square.svg</file>
+    <file>icon blue/chevron-down.svg</file>
+    <file>icon blue/chevron-left.svg</file>
+    <file>icon blue/chevron-right.svg</file>
+    <file>icon blue/chevrons-down.svg</file>
+    <file>icon blue/chevrons-left.svg</file>
+    <file>icon blue/chevrons-right.svg</file>
+    <file>icon blue/chevrons-up.svg</file>
+    <file>icon blue/chevron-up.svg</file>
+    <file>icon blue/chrome.svg</file>
+    <file>icon blue/circle.svg</file>
+    <file>icon blue/clipboard.svg</file>
+    <file>icon blue/clock.svg</file>
+    <file>icon blue/cloud.svg</file>
+    <file>icon blue/cloud-drizzle.svg</file>
+    <file>icon blue/cloud-lightning.svg</file>
+    <file>icon blue/cloud-off.svg</file>
+    <file>icon blue/cloud-rain.svg</file>
+    <file>icon blue/cloud-snow.svg</file>
+    <file>icon blue/code.svg</file>
+    <file>icon blue/codepen.svg</file>
+    <file>icon blue/codesandbox.svg</file>
+    <file>icon blue/coffee.svg</file>
+    <file>icon blue/columns.svg</file>
+    <file>icon blue/command.svg</file>
+    <file>icon blue/compass.svg</file>
+    <file>icon blue/copy.svg</file>
+    <file>icon blue/corner-down-left.svg</file>
+    <file>icon blue/corner-down-right.svg</file>
+    <file>icon blue/corner-left-down.svg</file>
+    <file>icon blue/corner-left-up.svg</file>
+    <file>icon blue/corner-right-down.svg</file>
+    <file>icon blue/corner-right-up.svg</file>
+    <file>icon blue/corner-up-left.svg</file>
+    <file>icon blue/corner-up-right.svg</file>
+    <file>icon blue/cpu.svg</file>
+    <file>icon blue/credit-card.svg</file>
+    <file>icon blue/crop.svg</file>
+    <file>icon blue/crosshair.svg</file>
+    <file>icon blue/database.svg</file>
+    <file>icon blue/delete.svg</file>
+    <file>icon blue/disc.svg</file>
+    <file>icon blue/divide.svg</file>
+    <file>icon blue/divide-circle.svg</file>
+    <file>icon blue/divide-square.svg</file>
+    <file>icon blue/dollar-sign.svg</file>
+    <file>icon blue/download.svg</file>
+    <file>icon blue/download-cloud.svg</file>
+    <file>icon blue/dribbble.svg</file>
+    <file>icon blue/droplet.svg</file>
+    <file>icon blue/edit.svg</file>
+    <file>icon blue/edit-2.svg</file>
+    <file>icon blue/edit-3.svg</file>
+    <file>icon blue/external-link.svg</file>
+    <file>icon blue/eye.svg</file>
+    <file>icon blue/eye-off.svg</file>
+    <file>icon blue/facebook.svg</file>
+    <file>icon blue/fast-forward.svg</file>
+    <file>icon blue/feather.svg</file>
+    <file>icon blue/figma.svg</file>
+    <file>icon blue/file.svg</file>
+    <file>icon blue/file-minus.svg</file>
+    <file>icon blue/file-plus.svg</file>
+    <file>icon blue/file-text.svg</file>
+    <file>icon blue/film.svg</file>
+    <file>icon blue/filter.svg</file>
+    <file>icon blue/flag.svg</file>
+    <file>icon blue/folder.svg</file>
+    <file>icon blue/folder-minus.svg</file>
+    <file>icon blue/folder-plus.svg</file>
+    <file>icon blue/framer.svg</file>
+    <file>icon blue/frown.svg</file>
+    <file>icon blue/gift.svg</file>
+    <file>icon blue/git-branch.svg</file>
+    <file>icon blue/git-commit.svg</file>
+    <file>icon blue/github.svg</file>
+    <file>icon blue/gitlab.svg</file>
+    <file>icon blue/git-merge.svg</file>
+    <file>icon blue/git-pull-request.svg</file>
+    <file>icon blue/globe.svg</file>
+    <file>icon blue/grid.svg</file>
+    <file>icon blue/hard-drive.svg</file>
+    <file>icon blue/hash.svg</file>
+    <file>icon blue/headphones.svg</file>
+    <file>icon blue/heart.svg</file>
+    <file>icon blue/help-circle.svg</file>
+    <file>icon blue/hexagon.svg</file>
+    <file>icon blue/home.svg</file>
+    <file>icon blue/image.svg</file>
+    <file>icon blue/inbox.svg</file>
+    <file>icon blue/info.svg</file>
+    <file>icon blue/instagram.svg</file>
+    <file>icon blue/italic.svg</file>
+    <file>icon blue/key.svg</file>
+    <file>icon blue/layers.svg</file>
+    <file>icon blue/layout.svg</file>
+    <file>icon blue/life-buoy.svg</file>
+    <file>icon blue/link.svg</file>
+    <file>icon blue/link-2.svg</file>
+    <file>icon blue/linkedin.svg</file>
+    <file>icon blue/list.svg</file>
+    <file>icon blue/loader.svg</file>
+    <file>icon blue/lock.svg</file>
+    <file>icon blue/log-in.svg</file>
+    <file>icon blue/log-out.svg</file>
+    <file>icon blue/mail.svg</file>
+    <file>icon blue/map.svg</file>
+    <file>icon blue/map-pin.svg</file>
+    <file>icon blue/maximize.svg</file>
+    <file>icon blue/maximize-2.svg</file>
+    <file>icon blue/meh.svg</file>
+    <file>icon blue/menu.svg</file>
+    <file>icon blue/message-circle.svg</file>
+    <file>icon blue/message-square.svg</file>
+    <file>icon blue/mic.svg</file>
+    <file>icon blue/mic-off.svg</file>
+    <file>icon blue/minimize.svg</file>
+    <file>icon blue/minimize-2.svg</file>
+    <file>icon blue/minus.svg</file>
+    <file>icon blue/minus-circle.svg</file>
+    <file>icon blue/minus-square.svg</file>
+    <file>icon blue/monitor.svg</file>
+    <file>icon blue/moon.svg</file>
+    <file>icon blue/more-horizontal.svg</file>
+    <file>icon blue/more-vertical.svg</file>
+    <file>icon blue/mouse-pointer.svg</file>
+    <file>icon blue/move.svg</file>
+    <file>icon blue/music.svg</file>
+    <file>icon blue/navigation.svg</file>
+    <file>icon blue/navigation-2.svg</file>
+    <file>icon blue/octagon.svg</file>
+    <file>icon blue/package.svg</file>
+    <file>icon blue/paperclip.svg</file>
+    <file>icon blue/pause.svg</file>
+    <file>icon blue/pause-circle.svg</file>
+    <file>icon blue/pen-tool.svg</file>
+    <file>icon blue/percent.svg</file>
+    <file>icon blue/phone.svg</file>
+    <file>icon blue/phone-call.svg</file>
+    <file>icon blue/phone-forwarded.svg</file>
+    <file>icon blue/phone-incoming.svg</file>
+    <file>icon blue/phone-missed.svg</file>
+    <file>icon blue/phone-off.svg</file>
+    <file>icon blue/phone-outgoing.svg</file>
+    <file>icon blue/pie-chart.svg</file>
+    <file>icon blue/play.svg</file>
+    <file>icon blue/play-circle.svg</file>
+    <file>icon blue/plus.svg</file>
+    <file>icon blue/plus-circle.svg</file>
+    <file>icon blue/plus-square.svg</file>
+    <file>icon blue/pocket.svg</file>
+    <file>icon blue/power.svg</file>
+    <file>icon blue/printer.svg</file>
+    <file>icon blue/radio.svg</file>
+    <file>icon blue/refresh-ccw.svg</file>
+    <file>icon blue/refresh-cw.svg</file>
+    <file>icon blue/repeat.svg</file>
+    <file>icon blue/rewind.svg</file>
+    <file>icon blue/rotate-ccw.svg</file>
+    <file>icon blue/rotate-cw.svg</file>
+    <file>icon blue/rss.svg</file>
+    <file>icon blue/save.svg</file>
+    <file>icon blue/scissors.svg</file>
+    <file>icon blue/search.svg</file>
+    <file>icon blue/send.svg</file>
+    <file>icon blue/server.svg</file>
+    <file>icon blue/settings.svg</file>
+    <file>icon blue/share.svg</file>
+    <file>icon blue/share-2.svg</file>
+    <file>icon blue/shield.svg</file>
+    <file>icon blue/shield-off.svg</file>
+    <file>icon blue/shopping-bag.svg</file>
+    <file>icon blue/shopping-cart.svg</file>
+    <file>icon blue/shuffle.svg</file>
+    <file>icon blue/sidebar.svg</file>
+    <file>icon blue/skip-back.svg</file>
+    <file>icon blue/skip-forward.svg</file>
+    <file>icon blue/slack.svg</file>
+    <file>icon blue/slash.svg</file>
+    <file>icon blue/sliders.svg</file>
+    <file>icon blue/smartphone.svg</file>
+    <file>icon blue/smile.svg</file>
+    <file>icon blue/speaker.svg</file>
+    <file>icon blue/square.svg</file>
+    <file>icon blue/star.svg</file>
+    <file>icon blue/stop-circle.svg</file>
+    <file>icon blue/sun.svg</file>
+    <file>icon blue/sunrise.svg</file>
+    <file>icon blue/sunset.svg</file>
+    <file>icon blue/table.svg</file>
+    <file>icon blue/tablet.svg</file>
+    <file>icon blue/tag.svg</file>
+    <file>icon blue/target.svg</file>
+    <file>icon blue/terminal.svg</file>
+    <file>icon blue/thermometer.svg</file>
+    <file>icon blue/thumbs-down.svg</file>
+    <file>icon blue/thumbs-up.svg</file>
+    <file>icon blue/toggle-left.svg</file>
+    <file>icon blue/toggle-right.svg</file>
+    <file>icon blue/tool.svg</file>
+    <file>icon blue/trash.svg</file>
+    <file>icon blue/trash-2.svg</file>
+    <file>icon blue/trello.svg</file>
+    <file>icon blue/trending-down.svg</file>
+    <file>icon blue/trending-up.svg</file>
+    <file>icon blue/triangle.svg</file>
+    <file>icon blue/truck.svg</file>
+    <file>icon blue/tv.svg</file>
+    <file>icon blue/twitch.svg</file>
+    <file>icon blue/twitter.svg</file>
+    <file>icon blue/type.svg</file>
+    <file>icon blue/umbrella.svg</file>
+    <file>icon blue/underline.svg</file>
+    <file>icon blue/unlock.svg</file>
+    <file>icon blue/upload.svg</file>
+    <file>icon blue/upload-cloud.svg</file>
+    <file>icon blue/user.svg</file>
+    <file>icon blue/user-check.svg</file>
+    <file>icon blue/user-minus.svg</file>
+    <file>icon blue/user-plus.svg</file>
+    <file>icon blue/users.svg</file>
+    <file>icon blue/user-x.svg</file>
+    <file>icon blue/video.svg</file>
+    <file>icon blue/video-off.svg</file>
+    <file>icon blue/voicemail.svg</file>
+    <file>icon blue/volume.svg</file>
+    <file>icon blue/volume-1.svg</file>
+    <file>icon blue/volume-2.svg</file>
+    <file>icon blue/volume-x.svg</file>
+    <file>icon blue/watch.svg</file>
+    <file>icon blue/wifi.svg</file>
+    <file>icon blue/wifi-off.svg</file>
+    <file>icon blue/wind.svg</file>
+    <file>icon blue/x.svg</file>
+    <file>icon blue/x-circle.svg</file>
+    <file>icon blue/x-octagon.svg</file>
+    <file>icon blue/x-square.svg</file>
+    <file>icon blue/youtube.svg</file>
+    <file>icon blue/zap.svg</file>
+    <file>icon blue/zap-off.svg</file>
+    <file>icon blue/zoom-in.svg</file>
+    <file>icon blue/zoom-out.svg</file>
+  </qresource>
+</RCC>
