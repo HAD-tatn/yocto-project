@@ -1,9 +1,9 @@
 import sys
-from PySide2.QtCore import *
-from PySide2.QtGui import *
-from PySide2.QtWidgets import *
+from PySide6.QtCore import *
+from PySide6.QtGui import *
+from PySide6.QtWidgets import *
 
-from ui_untitled import Ui_MainWindow   # file .ui đã convert
+from ui_main import Ui_MainWindow   
 
 class MainWindow(QMainWindow):
     def __init__(self):
