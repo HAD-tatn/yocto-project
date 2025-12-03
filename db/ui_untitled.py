@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'untitledhmLuhS.ui'
+## Form generated from reading UI file 'untitledDQaBVo.ui'
 ##
 ## Created by: Qt User Interface Compiler version 5.15.2
 ##
@@ -31,20 +31,23 @@ class Ui_MainWindow(object):
 "border-radius: 15px;\n"
 "}\n"
 "\n"
-"#mainBody,#page,#page_2,#page_3{\n"
+"#mainBody,#page_1,#page_2,#page_3{\n"
 "background-color: #eff9fe;\n"
 "border-radius: 30px;\n"
+"}\n"
+"\n"
+"#ss1_list_frame1, #ss1_list_frame2{\n"
+"background-color: #eff9fe;\n"
+"border-radius: 10px;\n"
+"}\n"
+"\n"
+"#tableView,#tableView_2{\n"
+"background-color: #eff9fe;\n"
 "}\n"
 "\n"
 "QLineEdit{\n"
 "background: transparent;\n"
 "}\n"
-"\n"
-"#searchFrame{\n"
-"border-radius: 10px;\n"
-"border: 2px solid #9751c9;\n"
-"}\n"
-"\n"
 "#labelMenu,#labelTemp,#labelHumid,#labelPM,#labelMenu_2,#labelMenu_3,#labelCamera,#labelNoti,#labelControl{\n"
 "color: #9751c9;\n"
 "}\n"
@@ -56,7 +59,7 @@ class Ui_MainWindow(object):
 "padding:3px;\n"
 "}\n"
 "\n"
-"#card1,#card2,#card3,#card4,#card5,#card6,#card7, #card8, #card9{\n"
+"#header_db, #header_ss, #db_frame1_card1,  #db_frame1_card2,  #db_frame1_card3,  #db_frame2_card1 ,  #db_frame2_card2, #db_frame2_card3{\n"
 "background-color: #fefeff;\n"
 "color: #9751c9;\n"
 "border-radius: 20px;\n"
@@ -66,19 +69,39 @@ class Ui_MainWindow(object):
 "    width: 50px;\n"
 "    height: 50px;\n"
 "}\n"
-"\n"
+""
+                        "\n"
 "QCheckBox::indicator:unchecked {\n"
 "    image: url(\"E:/Study/BTL/DATN/Dashboard/1.png\");\n"
 "}\n"
 "\n"
 "QCheckBox::indicator:checked {\n"
-"    image:"
-                        " url(\"E:/Study/BTL/DATN/Dashboard/2.png\");\n"
+"    image: url(\"E:/Study/BTL/DATN/Dashboard/2.png\");\n"
 "}\n"
 "\n"
 "#homeBtn,#notiBtn,#sensorBtn{\n"
 "	color: #fefeff;\n"
 "	text-align:left;\n"
+"}\n"
+"\n"
+"QToolBox::tab {\n"
+"    background: #f7e8ff;\n"
+"    border: 2px solid #c29af8;\n"
+"    border-radius: 8px;\n"
+"    color: #333;\n"
+"    font-weight: bold;\n"
+"\n"
+"    padding: -2px 0px 0px 2px;     /* c\u0103n icon + text */\n"
+"}\n"
+"#ss_frame1{\n"
+"    background: #fefeff;\n"
+"    border-radius: 20px;\n"
+"    padding: 8px;\n"
+"}\n"
+"\n"
+"#scrollContent ,#ss1_list, #ss2_list  {\n"
+"    background: #fefeff;\n"
+"  \n"
 "}")
         self.horizontalLayout = QHBoxLayout(self.centralwidget)
         self.horizontalLayout.setObjectName(u"horizontalLayout")
@@ -158,17 +181,17 @@ class Ui_MainWindow(object):
         self.verticalLayout.setObjectName(u"verticalLayout")
         self.stackedWidget = QStackedWidget(self.mainBody)
         self.stackedWidget.setObjectName(u"stackedWidget")
-        self.page = QWidget()
-        self.page.setObjectName(u"page")
-        self.verticalLayout_12 = QVBoxLayout(self.page)
+        self.page_1 = QWidget()
+        self.page_1.setObjectName(u"page_1")
+        self.verticalLayout_12 = QVBoxLayout(self.page_1)
         self.verticalLayout_12.setObjectName(u"verticalLayout_12")
-        self.headerFrame = QWidget(self.page)
-        self.headerFrame.setObjectName(u"headerFrame")
-        self.horizontalLayout_2 = QHBoxLayout(self.headerFrame)
+        self.header_db = QWidget(self.page_1)
+        self.header_db.setObjectName(u"header_db")
+        self.horizontalLayout_2 = QHBoxLayout(self.header_db)
         self.horizontalLayout_2.setSpacing(0)
         self.horizontalLayout_2.setObjectName(u"horizontalLayout_2")
         self.horizontalLayout_2.setContentsMargins(0, 0, 0, 0)
-        self.widget = QWidget(self.headerFrame)
+        self.widget = QWidget(self.header_db)
         self.widget.setObjectName(u"widget")
         self.horizontalLayout_3 = QHBoxLayout(self.widget)
         self.horizontalLayout_3.setObjectName(u"horizontalLayout_3")
@@ -195,14 +218,14 @@ class Ui_MainWindow(object):
 
         self.horizontalLayout_2.addWidget(self.widget, 0, Qt.AlignLeft)
 
-        self.widget_2 = QWidget(self.headerFrame)
+        self.widget_2 = QWidget(self.header_db)
         self.widget_2.setObjectName(u"widget_2")
         self.horizontalLayout_4 = QHBoxLayout(self.widget_2)
         self.horizontalLayout_4.setObjectName(u"horizontalLayout_4")
 
         self.horizontalLayout_2.addWidget(self.widget_2, 0, Qt.AlignHCenter)
 
-        self.widget_3 = QWidget(self.headerFrame)
+        self.widget_3 = QWidget(self.header_db)
         self.widget_3.setObjectName(u"widget_3")
         self.horizontalLayout_6 = QHBoxLayout(self.widget_3)
         self.horizontalLayout_6.setSpacing(0)
@@ -221,23 +244,24 @@ class Ui_MainWindow(object):
         self.horizontalLayout_2.addWidget(self.widget_3, 0, Qt.AlignRight)
 
 
-        self.verticalLayout_12.addWidget(self.headerFrame)
+        self.verticalLayout_12.addWidget(self.header_db)
 
-        self.cardFrame = QWidget(self.page)
-        self.cardFrame.setObjectName(u"cardFrame")
-        self.cardFrame.setMaximumSize(QSize(16777215, 150))
-        self.horizontalLayout_7 = QHBoxLayout(self.cardFrame)
+        self.db_frame1 = QWidget(self.page_1)
+        self.db_frame1.setObjectName(u"db_frame1")
+        self.db_frame1.setMaximumSize(QSize(16777215, 150))
+        self.horizontalLayout_7 = QHBoxLayout(self.db_frame1)
         self.horizontalLayout_7.setObjectName(u"horizontalLayout_7")
-        self.horizontalLayout_7.setContentsMargins(-1, -1, -1, 0)
-        self.card1 = QFrame(self.cardFrame)
-        self.card1.setObjectName(u"card1")
-        self.card1.setMinimumSize(QSize(200, 0))
-        self.card1.setFrameShape(QFrame.StyledPanel)
-        self.card1.setFrameShadow(QFrame.Raised)
-        self.verticalLayout_2 = QVBoxLayout(self.card1)
+        self.horizontalLayout_7.setContentsMargins(0, 0, 0, 0)
+        self.db_frame1_card1 = QFrame(self.db_frame1)
+        self.db_frame1_card1.setObjectName(u"db_frame1_card1")
+        self.db_frame1_card1.setMinimumSize(QSize(200, 0))
+        self.db_frame1_card1.setFrameShape(QFrame.StyledPanel)
+        self.db_frame1_card1.setFrameShadow(QFrame.Raised)
+        self.verticalLayout_2 = QVBoxLayout(self.db_frame1_card1)
         self.verticalLayout_2.setSpacing(10)
         self.verticalLayout_2.setObjectName(u"verticalLayout_2")
-        self.frame = QFrame(self.card1)
+        self.verticalLayout_2.setContentsMargins(10, 10, 10, 10)
+        self.frame = QFrame(self.db_frame1_card1)
         self.frame.setObjectName(u"frame")
         self.frame.setMaximumSize(QSize(16777215, 60))
         self.frame.setFrameShape(QFrame.StyledPanel)
@@ -265,7 +289,7 @@ class Ui_MainWindow(object):
 
         self.verticalLayout_2.addWidget(self.frame)
 
-        self.labelTemp = QLabel(self.card1)
+        self.labelTemp = QLabel(self.db_frame1_card1)
         self.labelTemp.setObjectName(u"labelTemp")
         self.labelTemp.setMaximumSize(QSize(16777215, 40))
         font4 = QFont()
@@ -277,17 +301,18 @@ class Ui_MainWindow(object):
         self.verticalLayout_2.addWidget(self.labelTemp, 0, Qt.AlignTop)
 
 
-        self.horizontalLayout_7.addWidget(self.card1)
+        self.horizontalLayout_7.addWidget(self.db_frame1_card1)
 
-        self.card4 = QFrame(self.cardFrame)
-        self.card4.setObjectName(u"card4")
-        self.card4.setMinimumSize(QSize(200, 0))
-        self.card4.setFrameShape(QFrame.StyledPanel)
-        self.card4.setFrameShadow(QFrame.Raised)
-        self.verticalLayout_3 = QVBoxLayout(self.card4)
+        self.db_frame1_card2 = QFrame(self.db_frame1)
+        self.db_frame1_card2.setObjectName(u"db_frame1_card2")
+        self.db_frame1_card2.setMinimumSize(QSize(200, 0))
+        self.db_frame1_card2.setFrameShape(QFrame.StyledPanel)
+        self.db_frame1_card2.setFrameShadow(QFrame.Raised)
+        self.verticalLayout_3 = QVBoxLayout(self.db_frame1_card2)
         self.verticalLayout_3.setSpacing(10)
         self.verticalLayout_3.setObjectName(u"verticalLayout_3")
-        self.frame_4 = QFrame(self.card4)
+        self.verticalLayout_3.setContentsMargins(10, 10, 10, 10)
+        self.frame_4 = QFrame(self.db_frame1_card2)
         self.frame_4.setObjectName(u"frame_4")
         self.frame_4.setMaximumSize(QSize(16777215, 60))
         self.frame_4.setFrameShape(QFrame.StyledPanel)
@@ -311,7 +336,7 @@ class Ui_MainWindow(object):
 
         self.verticalLayout_3.addWidget(self.frame_4, 0, Qt.AlignTop)
 
-        self.labelPM = QLabel(self.card4)
+        self.labelPM = QLabel(self.db_frame1_card2)
         self.labelPM.setObjectName(u"labelPM")
         self.labelPM.setMaximumSize(QSize(16777215, 40))
         self.labelPM.setFont(font4)
@@ -319,17 +344,18 @@ class Ui_MainWindow(object):
         self.verticalLayout_3.addWidget(self.labelPM, 0, Qt.AlignTop)
 
 
-        self.horizontalLayout_7.addWidget(self.card4)
+        self.horizontalLayout_7.addWidget(self.db_frame1_card2)
 
-        self.card2 = QFrame(self.cardFrame)
-        self.card2.setObjectName(u"card2")
-        self.card2.setMinimumSize(QSize(200, 0))
-        self.card2.setFrameShape(QFrame.StyledPanel)
-        self.card2.setFrameShadow(QFrame.Raised)
-        self.verticalLayout_4 = QVBoxLayout(self.card2)
+        self.db_frame1_card3 = QFrame(self.db_frame1)
+        self.db_frame1_card3.setObjectName(u"db_frame1_card3")
+        self.db_frame1_card3.setMinimumSize(QSize(200, 0))
+        self.db_frame1_card3.setFrameShape(QFrame.StyledPanel)
+        self.db_frame1_card3.setFrameShadow(QFrame.Raised)
+        self.verticalLayout_4 = QVBoxLayout(self.db_frame1_card3)
         self.verticalLayout_4.setSpacing(10)
         self.verticalLayout_4.setObjectName(u"verticalLayout_4")
-        self.frame_2 = QFrame(self.card2)
+        self.verticalLayout_4.setContentsMargins(10, 10, 10, 10)
+        self.frame_2 = QFrame(self.db_frame1_card3)
         self.frame_2.setObjectName(u"frame_2")
         self.frame_2.setMaximumSize(QSize(16777215, 60))
         self.frame_2.setFrameShape(QFrame.StyledPanel)
@@ -353,7 +379,7 @@ class Ui_MainWindow(object):
 
         self.verticalLayout_4.addWidget(self.frame_2)
 
-        self.labelHumid = QLabel(self.card2)
+        self.labelHumid = QLabel(self.db_frame1_card3)
         self.labelHumid.setObjectName(u"labelHumid")
         self.labelHumid.setMaximumSize(QSize(16777215, 40))
         self.labelHumid.setFont(font4)
@@ -361,30 +387,31 @@ class Ui_MainWindow(object):
         self.verticalLayout_4.addWidget(self.labelHumid, 0, Qt.AlignTop)
 
 
-        self.horizontalLayout_7.addWidget(self.card2)
+        self.horizontalLayout_7.addWidget(self.db_frame1_card3)
 
 
-        self.verticalLayout_12.addWidget(self.cardFrame)
+        self.verticalLayout_12.addWidget(self.db_frame1)
 
-        self.mainFrame = QWidget(self.page)
-        self.mainFrame.setObjectName(u"mainFrame")
+        self.db_frame2 = QWidget(self.page_1)
+        self.db_frame2.setObjectName(u"db_frame2")
         sizePolicy = QSizePolicy(QSizePolicy.Preferred, QSizePolicy.Expanding)
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
-        sizePolicy.setHeightForWidth(self.mainFrame.sizePolicy().hasHeightForWidth())
-        self.mainFrame.setSizePolicy(sizePolicy)
-        self.horizontalLayout_10 = QHBoxLayout(self.mainFrame)
+        sizePolicy.setHeightForWidth(self.db_frame2.sizePolicy().hasHeightForWidth())
+        self.db_frame2.setSizePolicy(sizePolicy)
+        self.horizontalLayout_10 = QHBoxLayout(self.db_frame2)
         self.horizontalLayout_10.setObjectName(u"horizontalLayout_10")
-        self.card5 = QFrame(self.mainFrame)
-        self.card5.setObjectName(u"card5")
-        self.card5.setMinimumSize(QSize(160, 0))
-        self.card5.setFrameShape(QFrame.StyledPanel)
-        self.card5.setFrameShadow(QFrame.Raised)
-        self.verticalLayout_8 = QVBoxLayout(self.card5)
+        self.horizontalLayout_10.setContentsMargins(0, 0, 0, 0)
+        self.db_frame2_card1 = QFrame(self.db_frame2)
+        self.db_frame2_card1.setObjectName(u"db_frame2_card1")
+        self.db_frame2_card1.setMinimumSize(QSize(160, 0))
+        self.db_frame2_card1.setFrameShape(QFrame.StyledPanel)
+        self.db_frame2_card1.setFrameShadow(QFrame.Raised)
+        self.verticalLayout_8 = QVBoxLayout(self.db_frame2_card1)
         self.verticalLayout_8.setSpacing(7)
         self.verticalLayout_8.setObjectName(u"verticalLayout_8")
         self.verticalLayout_8.setContentsMargins(-1, -1, -1, 11)
-        self.frame_13 = QFrame(self.card5)
+        self.frame_13 = QFrame(self.db_frame2_card1)
         self.frame_13.setObjectName(u"frame_13")
         self.frame_13.setFrameShape(QFrame.StyledPanel)
         self.frame_13.setFrameShadow(QFrame.Raised)
@@ -414,7 +441,7 @@ class Ui_MainWindow(object):
 
         self.verticalLayout_8.addWidget(self.frame_13)
 
-        self.frame_8 = QFrame(self.card5)
+        self.frame_8 = QFrame(self.db_frame2_card1)
         self.frame_8.setObjectName(u"frame_8")
         sizePolicy2 = QSizePolicy(QSizePolicy.Preferred, QSizePolicy.MinimumExpanding)
         sizePolicy2.setHorizontalStretch(0)
@@ -429,33 +456,33 @@ class Ui_MainWindow(object):
         self.verticalLayout_8.addWidget(self.frame_8)
 
 
-        self.horizontalLayout_10.addWidget(self.card5)
+        self.horizontalLayout_10.addWidget(self.db_frame2_card1)
 
-        self.frame_5 = QFrame(self.mainFrame)
-        self.frame_5.setObjectName(u"frame_5")
-        self.frame_5.setFrameShape(QFrame.StyledPanel)
-        self.frame_5.setFrameShadow(QFrame.Raised)
-        self.horizontalLayout_14 = QHBoxLayout(self.frame_5)
+        self.db_frame2_card2_all = QFrame(self.db_frame2)
+        self.db_frame2_card2_all.setObjectName(u"db_frame2_card2_all")
+        self.db_frame2_card2_all.setFrameShape(QFrame.StyledPanel)
+        self.db_frame2_card2_all.setFrameShadow(QFrame.Raised)
+        self.horizontalLayout_14 = QHBoxLayout(self.db_frame2_card2_all)
         self.horizontalLayout_14.setSpacing(0)
         self.horizontalLayout_14.setObjectName(u"horizontalLayout_14")
         self.horizontalLayout_14.setContentsMargins(0, 0, 0, 0)
-        self.cardsum = QFrame(self.frame_5)
-        self.cardsum.setObjectName(u"cardsum")
-        self.cardsum.setMinimumSize(QSize(300, 500))
-        self.cardsum.setFrameShape(QFrame.StyledPanel)
-        self.cardsum.setFrameShadow(QFrame.Raised)
-        self.verticalLayout_6 = QVBoxLayout(self.cardsum)
+        self.db_frame2_card2_all2 = QFrame(self.db_frame2_card2_all)
+        self.db_frame2_card2_all2.setObjectName(u"db_frame2_card2_all2")
+        self.db_frame2_card2_all2.setMinimumSize(QSize(300, 500))
+        self.db_frame2_card2_all2.setFrameShape(QFrame.StyledPanel)
+        self.db_frame2_card2_all2.setFrameShadow(QFrame.Raised)
+        self.verticalLayout_6 = QVBoxLayout(self.db_frame2_card2_all2)
         self.verticalLayout_6.setObjectName(u"verticalLayout_6")
         self.verticalLayout_6.setContentsMargins(0, 0, 0, 0)
-        self.card7 = QFrame(self.cardsum)
-        self.card7.setObjectName(u"card7")
-        self.card7.setMinimumSize(QSize(0, 250))
-        self.card7.setFrameShape(QFrame.StyledPanel)
-        self.card7.setFrameShadow(QFrame.Raised)
-        self.verticalLayout_15 = QVBoxLayout(self.card7)
+        self.db_frame2_card2 = QFrame(self.db_frame2_card2_all2)
+        self.db_frame2_card2.setObjectName(u"db_frame2_card2")
+        self.db_frame2_card2.setMinimumSize(QSize(0, 250))
+        self.db_frame2_card2.setFrameShape(QFrame.StyledPanel)
+        self.db_frame2_card2.setFrameShadow(QFrame.Raised)
+        self.verticalLayout_15 = QVBoxLayout(self.db_frame2_card2)
         self.verticalLayout_15.setObjectName(u"verticalLayout_15")
         self.verticalLayout_15.setContentsMargins(-1, -1, -1, 11)
-        self.frame_3 = QFrame(self.card7)
+        self.frame_3 = QFrame(self.db_frame2_card2)
         self.frame_3.setObjectName(u"frame_3")
         self.frame_3.setFrameShape(QFrame.StyledPanel)
         self.frame_3.setFrameShadow(QFrame.Raised)
@@ -493,7 +520,7 @@ class Ui_MainWindow(object):
 
         self.verticalLayout_15.addWidget(self.frame_3)
 
-        self.frame_9 = QFrame(self.card7)
+        self.frame_9 = QFrame(self.db_frame2_card2)
         self.frame_9.setObjectName(u"frame_9")
         sizePolicy.setHeightForWidth(self.frame_9.sizePolicy().hasHeightForWidth())
         self.frame_9.setSizePolicy(sizePolicy)
@@ -549,17 +576,17 @@ class Ui_MainWindow(object):
         self.verticalLayout_15.addItem(self.verticalSpacer)
 
 
-        self.verticalLayout_6.addWidget(self.card7, 0, Qt.AlignTop)
+        self.verticalLayout_6.addWidget(self.db_frame2_card2)
 
-        self.card6 = QFrame(self.cardsum)
-        self.card6.setObjectName(u"card6")
-        self.card6.setMinimumSize(QSize(0, 0))
-        self.card6.setFrameShape(QFrame.StyledPanel)
-        self.card6.setFrameShadow(QFrame.Raised)
-        self.verticalLayout_7 = QVBoxLayout(self.card6)
+        self.db_frame2_card3 = QFrame(self.db_frame2_card2_all2)
+        self.db_frame2_card3.setObjectName(u"db_frame2_card3")
+        self.db_frame2_card3.setMinimumSize(QSize(0, 0))
+        self.db_frame2_card3.setFrameShape(QFrame.StyledPanel)
+        self.db_frame2_card3.setFrameShadow(QFrame.Raised)
+        self.verticalLayout_7 = QVBoxLayout(self.db_frame2_card3)
         self.verticalLayout_7.setObjectName(u"verticalLayout_7")
         self.verticalLayout_7.setContentsMargins(-1, -1, -1, 11)
-        self.frame_11 = QFrame(self.card6)
+        self.frame_11 = QFrame(self.db_frame2_card3)
         self.frame_11.setObjectName(u"frame_11")
         self.frame_11.setFrameShape(QFrame.StyledPanel)
         self.frame_11.setFrameShadow(QFrame.Raised)
@@ -586,7 +613,7 @@ class Ui_MainWindow(object):
 
         self.verticalLayout_7.addWidget(self.frame_11)
 
-        self.frame_12 = QFrame(self.card6)
+        self.frame_12 = QFrame(self.db_frame2_card3)
         self.frame_12.setObjectName(u"frame_12")
         self.frame_12.setFrameShape(QFrame.StyledPanel)
         self.frame_12.setFrameShadow(QFrame.Raised)
@@ -666,32 +693,30 @@ class Ui_MainWindow(object):
         self.verticalLayout_7.addWidget(self.frame_12)
 
 
-        self.verticalLayout_6.addWidget(self.card6, 0, Qt.AlignBottom)
+        self.verticalLayout_6.addWidget(self.db_frame2_card3)
 
 
-        self.horizontalLayout_14.addWidget(self.cardsum, 0, Qt.AlignTop)
+        self.horizontalLayout_14.addWidget(self.db_frame2_card2_all2)
 
-        self.horizontalLayout_14.setStretch(0, 1)
 
-        self.horizontalLayout_10.addWidget(self.frame_5)
+        self.horizontalLayout_10.addWidget(self.db_frame2_card2_all)
 
         self.horizontalLayout_10.setStretch(0, 1)
-        self.horizontalLayout_10.setStretch(1, 1)
 
-        self.verticalLayout_12.addWidget(self.mainFrame)
+        self.verticalLayout_12.addWidget(self.db_frame2)
 
-        self.stackedWidget.addWidget(self.page)
+        self.stackedWidget.addWidget(self.page_1)
         self.page_2 = QWidget()
         self.page_2.setObjectName(u"page_2")
         self.verticalLayout_14 = QVBoxLayout(self.page_2)
         self.verticalLayout_14.setObjectName(u"verticalLayout_14")
-        self.headerFrame_2 = QWidget(self.page_2)
-        self.headerFrame_2.setObjectName(u"headerFrame_2")
-        self.horizontalLayout_5 = QHBoxLayout(self.headerFrame_2)
+        self.header_ss = QWidget(self.page_2)
+        self.header_ss.setObjectName(u"header_ss")
+        self.horizontalLayout_5 = QHBoxLayout(self.header_ss)
         self.horizontalLayout_5.setSpacing(0)
         self.horizontalLayout_5.setObjectName(u"horizontalLayout_5")
         self.horizontalLayout_5.setContentsMargins(0, 0, 0, 0)
-        self.widget_4 = QWidget(self.headerFrame_2)
+        self.widget_4 = QWidget(self.header_ss)
         self.widget_4.setObjectName(u"widget_4")
         self.horizontalLayout_16 = QHBoxLayout(self.widget_4)
         self.horizontalLayout_16.setObjectName(u"horizontalLayout_16")
@@ -713,14 +738,14 @@ class Ui_MainWindow(object):
 
         self.horizontalLayout_5.addWidget(self.widget_4, 0, Qt.AlignLeft)
 
-        self.widget_5 = QWidget(self.headerFrame_2)
+        self.widget_5 = QWidget(self.header_ss)
         self.widget_5.setObjectName(u"widget_5")
         self.horizontalLayout_17 = QHBoxLayout(self.widget_5)
         self.horizontalLayout_17.setObjectName(u"horizontalLayout_17")
 
         self.horizontalLayout_5.addWidget(self.widget_5, 0, Qt.AlignHCenter)
 
-        self.widget_6 = QWidget(self.headerFrame_2)
+        self.widget_6 = QWidget(self.header_ss)
         self.widget_6.setObjectName(u"widget_6")
         self.horizontalLayout_18 = QHBoxLayout(self.widget_6)
         self.horizontalLayout_18.setSpacing(0)
@@ -739,16 +764,89 @@ class Ui_MainWindow(object):
         self.horizontalLayout_5.addWidget(self.widget_6, 0, Qt.AlignRight)
 
 
-        self.verticalLayout_14.addWidget(self.headerFrame_2)
+        self.verticalLayout_14.addWidget(self.header_ss)
 
-        self.card8 = QFrame(self.page_2)
-        self.card8.setObjectName(u"card8")
-        sizePolicy.setHeightForWidth(self.card8.sizePolicy().hasHeightForWidth())
-        self.card8.setSizePolicy(sizePolicy)
-        self.card8.setFrameShape(QFrame.StyledPanel)
-        self.card8.setFrameShadow(QFrame.Raised)
+        self.ss_frame1 = QFrame(self.page_2)
+        self.ss_frame1.setObjectName(u"ss_frame1")
+        sizePolicy.setHeightForWidth(self.ss_frame1.sizePolicy().hasHeightForWidth())
+        self.ss_frame1.setSizePolicy(sizePolicy)
+        self.ss_frame1.setStyleSheet(u"")
+        self.ss_frame1.setFrameShape(QFrame.StyledPanel)
+        self.ss_frame1.setFrameShadow(QFrame.Raised)
+        self.horizontalLayout_23 = QHBoxLayout(self.ss_frame1)
+        self.horizontalLayout_23.setObjectName(u"horizontalLayout_23")
+        self.horizontalLayout_23.setContentsMargins(0, 0, 0, 0)
+        self.scrollView = QScrollArea(self.ss_frame1)
+        self.scrollView.setObjectName(u"scrollView")
+        self.scrollView.setStyleSheet(u"")
+        self.scrollView.setWidgetResizable(True)
+        self.scrollContent = QWidget()
+        self.scrollContent.setObjectName(u"scrollContent")
+        self.scrollContent.setGeometry(QRect(0, 0, 727, 634))
+        self.scrollContent.setStyleSheet(u"")
+        self.verticalLayout_5 = QVBoxLayout(self.scrollContent)
+        self.verticalLayout_5.setObjectName(u"verticalLayout_5")
+        self.toolBox = QToolBox(self.scrollContent)
+        self.toolBox.setObjectName(u"toolBox")
+        self.toolBox.setEnabled(True)
+        self.toolBox.setMinimumSize(QSize(0, 0))
+        font11 = QFont()
+        font11.setPointSize(11)
+        font11.setBold(True)
+        font11.setWeight(75)
+        self.toolBox.setFont(font11)
+        self.toolBox.setStyleSheet(u"")
+        self.ss1_list = QWidget()
+        self.ss1_list.setObjectName(u"ss1_list")
+        self.ss1_list.setGeometry(QRect(0, 0, 705, 536))
+        self.horizontalLayout_24 = QHBoxLayout(self.ss1_list)
+        self.horizontalLayout_24.setObjectName(u"horizontalLayout_24")
+        self.ss1_list_frame1 = QFrame(self.ss1_list)
+        self.ss1_list_frame1.setObjectName(u"ss1_list_frame1")
+        self.ss1_list_frame1.setFrameShape(QFrame.StyledPanel)
+        self.ss1_list_frame1.setFrameShadow(QFrame.Raised)
+        self.horizontalLayout_27 = QHBoxLayout(self.ss1_list_frame1)
+        self.horizontalLayout_27.setObjectName(u"horizontalLayout_27")
+        self.tableView = QTableView(self.ss1_list_frame1)
+        self.tableView.setObjectName(u"tableView")
 
-        self.verticalLayout_14.addWidget(self.card8)
+        self.horizontalLayout_27.addWidget(self.tableView)
+
+
+        self.horizontalLayout_24.addWidget(self.ss1_list_frame1)
+
+        icon8 = QIcon()
+        icon8.addFile(u":/icon-purple/icon-purple/chevron-right.svg", QSize(), QIcon.Normal, QIcon.Off)
+        self.toolBox.addItem(self.ss1_list, icon8, u"Sensor 1")
+        self.ss2_list = QWidget()
+        self.ss2_list.setObjectName(u"ss2_list")
+        self.ss2_list.setGeometry(QRect(0, 0, 705, 536))
+        self.horizontalLayout_25 = QHBoxLayout(self.ss2_list)
+        self.horizontalLayout_25.setObjectName(u"horizontalLayout_25")
+        self.ss1_list_frame2 = QFrame(self.ss2_list)
+        self.ss1_list_frame2.setObjectName(u"ss1_list_frame2")
+        self.ss1_list_frame2.setFrameShape(QFrame.StyledPanel)
+        self.ss1_list_frame2.setFrameShadow(QFrame.Raised)
+        self.horizontalLayout_26 = QHBoxLayout(self.ss1_list_frame2)
+        self.horizontalLayout_26.setObjectName(u"horizontalLayout_26")
+        self.tableView_2 = QTableView(self.ss1_list_frame2)
+        self.tableView_2.setObjectName(u"tableView_2")
+
+        self.horizontalLayout_26.addWidget(self.tableView_2)
+
+
+        self.horizontalLayout_25.addWidget(self.ss1_list_frame2)
+
+        self.toolBox.addItem(self.ss2_list, icon8, u"Sensor 2")
+
+        self.verticalLayout_5.addWidget(self.toolBox)
+
+        self.scrollView.setWidget(self.scrollContent)
+
+        self.horizontalLayout_23.addWidget(self.scrollView)
+
+
+        self.verticalLayout_14.addWidget(self.ss_frame1)
 
         self.stackedWidget.addWidget(self.page_2)
         self.page_3 = QWidget()
@@ -827,7 +925,9 @@ class Ui_MainWindow(object):
 
         self.retranslateUi(MainWindow)
 
-        self.stackedWidget.setCurrentIndex(0)
+        self.stackedWidget.setCurrentIndex(1)
+        self.toolBox.setCurrentIndex(0)
+        self.toolBox.layout().setSpacing(8)
 
 
         QMetaObject.connectSlotsByName(MainWindow)
@@ -875,6 +975,8 @@ class Ui_MainWindow(object):
         self.menuBtn_2.setText("")
         self.labelMenu_2.setText(QCoreApplication.translate("MainWindow", u"Sensors", None))
         self.accountButton_2.setText("")
+        self.toolBox.setItemText(self.toolBox.indexOf(self.ss1_list), QCoreApplication.translate("MainWindow", u"Sensor 1", None))
+        self.toolBox.setItemText(self.toolBox.indexOf(self.ss2_list), QCoreApplication.translate("MainWindow", u"Sensor 2", None))
         self.menuBtn_3.setText("")
         self.labelMenu_3.setText(QCoreApplication.translate("MainWindow", u"Notifications", None))
         self.accountButton_3.setText("")
