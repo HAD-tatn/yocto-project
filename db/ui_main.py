@@ -434,6 +434,16 @@ class Ui_MainWindow(object):
 
         self.verticalLayout_8.addWidget(self.frame_8)
 
+        #Label camera_stream
+        self.camera_stream = QLabel("NO SIGNAL!")
+        self.camera_stream.setObjectName("camera_bottom_label")
+        self.camera_stream.setStyleSheet("color:#333; font-weight: bold;")
+        self.camera_stream.setAlignment(Qt.AlignCenter)
+        sizePolicy_camera = QSizePolicy(QSizePolicy.Expanding, QSizePolicy.Expanding)
+        self.camera_stream.setSizePolicy(sizePolicy_camera)
+        self.verticalLayout_8.addWidget(self.camera_stream)
+        self.camera_stream.setMinimumSize(QSize(320, 480))
+        self.camera_stream.setScaledContents(True)
 
         self.horizontalLayout_10.addWidget(self.card5)
 

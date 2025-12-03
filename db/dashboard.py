@@ -5,6 +5,9 @@ from PySide6.QtWidgets import *
 
 from ui_main import Ui_MainWindow   
 from sensor_reader import RS485Reader
+from camera_thread import CameraThread
+from camera_thread import RTSP_URL
+import numpy as np
 
 class MainWindow(QMainWindow):
     def __init__(self):
@@ -56,19 +59,58 @@ class MainWindow(QMainWindow):
         except Exception:
             self.rs485 = None
 
-    # =======================
-    # GET DATA VALUE & ADD NOTIFICATION
-    # =======================
+        # Start Camera thread (RTSP) and connect to UI updates
+        self.camera_thread = None
+        try:
+            if RTSP_URL:
+                self.camera_thread = CameraThread(RTSP_URL)
+                self.camera_thread.frame_ready.connect(self.update_camera_frame)
+                self.camera_thread.start()
+        except Exception:
+            self.camera_thread = None
+
     def closeEvent(self, event):
-        # Stop RS485 thread cleanly
+        # Stop RS485 thread 
         if hasattr(self, "rs485") and self.rs485 is not None:
             try:
                 self.rs485.stop()
                 self.rs485.wait(1500)
             except Exception:
                 pass
+        # Stop camera thread
+        if hasattr(self, "camera_thread") and self.camera_thread is not None:
+            try:
+                self.camera_thread.stop()
+                self.camera_thread.wait(1500)
+            except Exception:
+                pass
         super().closeEvent(event)
 
+    # =======================
+    # CAMERA DISPLAY 
+    # =======================
+    
+    @Slot(QImage)
+    def update_camera_frame(self, img: QImage):
+        """Receive QImage from CameraThread and display in UI."""
+        try:
+            # scale to label size while keeping aspect ratio
+            lbl = self.ui.camera_stream
+            if lbl is None:
+                return
+            pix = QPixmap.fromImage(img)
+            w = lbl.width()
+            h = lbl.height()
+            if w > 0 and h > 0:
+                pix = pix.scaled(w, h, Qt.KeepAspectRatio, Qt.SmoothTransformation)
+            lbl.setPixmap(pix)
+        except Exception:
+            pass
+
+    # =======================
+    # GET DATA VALUE & ADD NOTIFICATION
+    # =======================
+    
     def on_sensor_data(self, data: dict):
         """Update UI labels from sensor data dict.
 
