@@ -52,7 +52,7 @@ class MainWindow(QMainWindow):
 
         # Mặc định nút Home active
         self.setActiveButton(self.ui.homeBtn)
-
+        self.ui.stackedWidget.setCurrentIndex(0)
         self.show()
 
     # =======================
@@ -60,7 +60,7 @@ class MainWindow(QMainWindow):
     # =======================
     def setActiveButton(self, btn):
         # Reset style các nút
-        for b in [self.ui.homeBtn, self.ui.sensorBtn, self.ui.notiBtn]:
+        for b in [self.ui.homeBtn, self.ui.sensorBtn, self.ui.notiBtn, self.ui.vaBtn]:
             b.setStyleSheet("")
 
         # Style active
@@ -240,10 +240,7 @@ class MainWindow(QMainWindow):
                 border-top-left-radius: 8px;
             }
         """)
-        self.ui.tableView.setItemDelegate(TimeColumnDelegate())
-
-        
-
+        self.ui.tableView_2.setItemDelegate(TimeColumnDelegate())
 
     # =======================
     # SWITCH PAGE + ACTIVE
