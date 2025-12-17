@@ -6,14 +6,26 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>988</width>
-    <height>780</height>
+    <width>859</width>
+    <height>600</height>
    </rect>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1024</width>
+    <height>600</height>
+   </size>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
+   <property name="maximumSize">
+    <size>
+     <width>1024</width>
+     <height>600</height>
+    </size>
+   </property>
    <property name="styleSheet">
     <string notr="true">*{
 color:#000;
@@ -65,11 +77,10 @@ QCheckBox::indicator {
 }
 
 QCheckBox::indicator:unchecked {
-    image: url(&quot;E:/Study/BTL/DATN/Dashboard/1.png&quot;);
+    image: url(&quot;:/db/1.png&quot;);
 }
-
 QCheckBox::indicator:checked {
-    image: url(&quot;E:/Study/BTL/DATN/Dashboard/2.png&quot;);
+    image: url(&quot;:/db/2.png&quot;);
 }
 
 #homeBtn,#notiBtn,#sensorBtn{
@@ -169,9 +180,15 @@ QToolBox::tab {
                  <height>20</height>
                 </size>
                </property>
+               <property name="maximumSize">
+                <size>
+                 <width>120</width>
+                 <height>100</height>
+                </size>
+               </property>
                <property name="font">
                 <font>
-                 <pointsize>10</pointsize>
+                 <pointsize>7</pointsize>
                  <weight>75</weight>
                  <bold>true</bold>
                 </font>
@@ -193,9 +210,15 @@ QToolBox::tab {
              </item>
              <item>
               <widget class="QPushButton" name="sensorBtn">
+               <property name="maximumSize">
+                <size>
+                 <width>120</width>
+                 <height>100</height>
+                </size>
+               </property>
                <property name="font">
                 <font>
-                 <pointsize>10</pointsize>
+                 <pointsize>7</pointsize>
                  <weight>75</weight>
                  <bold>true</bold>
                 </font>
@@ -217,9 +240,15 @@ QToolBox::tab {
              </item>
              <item>
               <widget class="QPushButton" name="notiBtn">
+               <property name="maximumSize">
+                <size>
+                 <width>130</width>
+                 <height>100</height>
+                </size>
+               </property>
                <property name="font">
                 <font>
-                 <pointsize>10</pointsize>
+                 <pointsize>7</pointsize>
                  <weight>75</weight>
                  <bold>true</bold>
                 </font>
@@ -262,7 +291,7 @@ QToolBox::tab {
        <item>
         <widget class="QStackedWidget" name="stackedWidget">
          <property name="currentIndex">
-          <number>1</number>
+          <number>0</number>
          </property>
          <widget class="QWidget" name="page_1">
           <layout class="QVBoxLayout" name="verticalLayout_12">
@@ -289,6 +318,18 @@ QToolBox::tab {
                 <layout class="QHBoxLayout" name="horizontalLayout_3">
                  <item>
                   <widget class="QPushButton" name="menuBtn">
+                   <property name="minimumSize">
+                    <size>
+                     <width>50</width>
+                     <height>40</height>
+                    </size>
+                   </property>
+                   <property name="maximumSize">
+                    <size>
+                     <width>50</width>
+                     <height>50</height>
+                    </size>
+                   </property>
                    <property name="text">
                     <string/>
                    </property>
@@ -306,10 +347,16 @@ QToolBox::tab {
                  </item>
                  <item>
                   <widget class="QLabel" name="labelMenu">
+                   <property name="maximumSize">
+                    <size>
+                     <width>150</width>
+                     <height>40</height>
+                    </size>
+                   </property>
                    <property name="font">
                     <font>
                      <family>Segoe UI</family>
-                     <pointsize>15</pointsize>
+                     <pointsize>10</pointsize>
                      <weight>75</weight>
                      <bold>true</bold>
                     </font>
@@ -345,23 +392,6 @@ QToolBox::tab {
                  <property name="bottomMargin">
                   <number>0</number>
                  </property>
-                 <item>
-                  <widget class="QPushButton" name="accountButton">
-                   <property name="text">
-                    <string/>
-                   </property>
-                   <property name="icon">
-                    <iconset resource="resources.qrc">
-                     <normaloff>:/icon-purple/icon-purple/user.svg</normaloff>:/icon-purple/icon-purple/user.svg</iconset>
-                   </property>
-                   <property name="iconSize">
-                    <size>
-                     <width>30</width>
-                     <height>30</height>
-                    </size>
-                   </property>
-                  </widget>
-                 </item>
                 </layout>
                </widget>
               </item>
@@ -438,7 +468,7 @@ QToolBox::tab {
                      <widget class="QLabel" name="label">
                       <property name="font">
                        <font>
-                        <pointsize>9</pointsize>
+                        <pointsize>6</pointsize>
                         <weight>75</weight>
                         <bold>true</bold>
                        </font>
@@ -452,8 +482,8 @@ QToolBox::tab {
                      <widget class="QLabel" name="label_3">
                       <property name="maximumSize">
                        <size>
-                        <width>40</width>
-                        <height>40</height>
+                        <width>30</width>
+                        <height>30</height>
                        </size>
                       </property>
                       <property name="text">
@@ -480,7 +510,7 @@ QToolBox::tab {
                    </property>
                    <property name="font">
                     <font>
-                     <pointsize>7</pointsize>
+                     <pointsize>5</pointsize>
                      <weight>75</weight>
                      <bold>true</bold>
                     </font>
@@ -542,7 +572,7 @@ QToolBox::tab {
                      <widget class="QLabel" name="label_12">
                       <property name="font">
                        <font>
-                        <pointsize>9</pointsize>
+                        <pointsize>6</pointsize>
                         <weight>75</weight>
                         <bold>true</bold>
                        </font>
@@ -556,8 +586,8 @@ QToolBox::tab {
                      <widget class="QLabel" name="label_13">
                       <property name="maximumSize">
                        <size>
-                        <width>40</width>
-                        <height>40</height>
+                        <width>30</width>
+                        <height>30</height>
                        </size>
                       </property>
                       <property name="text">
@@ -584,7 +614,7 @@ QToolBox::tab {
                    </property>
                    <property name="font">
                     <font>
-                     <pointsize>7</pointsize>
+                     <pointsize>5</pointsize>
                      <weight>75</weight>
                      <bold>true</bold>
                     </font>
@@ -646,7 +676,7 @@ QToolBox::tab {
                      <widget class="QLabel" name="label_6">
                       <property name="font">
                        <font>
-                        <pointsize>9</pointsize>
+                        <pointsize>6</pointsize>
                         <weight>75</weight>
                         <bold>true</bold>
                        </font>
@@ -660,9 +690,14 @@ QToolBox::tab {
                      <widget class="QLabel" name="label_7">
                       <property name="maximumSize">
                        <size>
-                        <width>40</width>
-                        <height>40</height>
+                        <width>30</width>
+                        <height>30</height>
                        </size>
+                      </property>
+                      <property name="font">
+                       <font>
+                        <pointsize>4</pointsize>
+                       </font>
                       </property>
                       <property name="text">
                        <string/>
@@ -688,7 +723,7 @@ QToolBox::tab {
                    </property>
                    <property name="font">
                     <font>
-                     <pointsize>7</pointsize>
+                     <pointsize>5</pointsize>
                      <weight>75</weight>
                      <bold>true</bold>
                     </font>
@@ -775,7 +810,7 @@ QToolBox::tab {
                       </property>
                       <property name="font">
                        <font>
-                        <pointsize>12</pointsize>
+                        <pointsize>8</pointsize>
                         <weight>75</weight>
                         <bold>true</bold>
                        </font>
@@ -789,24 +824,12 @@ QToolBox::tab {
                   </widget>
                  </item>
                  <item>
-                  <widget class="QFrame" name="frame_8">
+                  <widget class="QFrame" name="frame_5">
                    <property name="sizePolicy">
-                    <sizepolicy hsizetype="Preferred" vsizetype="MinimumExpanding">
+                    <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
                      <horstretch>0</horstretch>
                      <verstretch>0</verstretch>
                     </sizepolicy>
-                   </property>
-                   <property name="minimumSize">
-                    <size>
-                     <width>480</width>
-                     <height>0</height>
-                    </size>
-                   </property>
-                   <property name="maximumSize">
-                    <size>
-                     <width>16777213</width>
-                     <height>16777215</height>
-                    </size>
                    </property>
                    <property name="frameShape">
                     <enum>QFrame::StyledPanel</enum>
@@ -814,6 +837,20 @@ QToolBox::tab {
                    <property name="frameShadow">
                     <enum>QFrame::Raised</enum>
                    </property>
+                   <layout class="QHBoxLayout" name="horizontalLayout_28">
+                    <item>
+                     <widget class="QLabel" name="label_5">
+                      <property name="font">
+                       <font>
+                        <pointsize>3</pointsize>
+                       </font>
+                      </property>
+                      <property name="text">
+                       <string>TextLabel</string>
+                      </property>
+                     </widget>
+                    </item>
+                   </layout>
                   </widget>
                  </item>
                 </layout>
@@ -872,10 +909,16 @@ QToolBox::tab {
                     </property>
                     <item>
                      <widget class="QFrame" name="db_frame2_card2">
+                      <property name="sizePolicy">
+                       <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                        <horstretch>0</horstretch>
+                        <verstretch>0</verstretch>
+                       </sizepolicy>
+                      </property>
                       <property name="minimumSize">
                        <size>
                         <width>0</width>
-                        <height>250</height>
+                        <height>0</height>
                        </size>
                       </property>
                       <property name="frameShape">
@@ -890,6 +933,12 @@ QToolBox::tab {
                        </property>
                        <item>
                         <widget class="QFrame" name="frame_3">
+                         <property name="sizePolicy">
+                          <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                           <horstretch>0</horstretch>
+                           <verstretch>0</verstretch>
+                          </sizepolicy>
+                         </property>
                          <property name="frameShape">
                           <enum>QFrame::StyledPanel</enum>
                          </property>
@@ -899,6 +948,17 @@ QToolBox::tab {
                          <layout class="QHBoxLayout" name="horizontalLayout_12">
                           <item>
                            <widget class="QLabel" name="label_4">
+                            <property name="maximumSize">
+                             <size>
+                              <width>25</width>
+                              <height>16777215</height>
+                             </size>
+                            </property>
+                            <property name="font">
+                             <font>
+                              <pointsize>5</pointsize>
+                             </font>
+                            </property>
                             <property name="text">
                              <string/>
                             </property>
@@ -907,23 +967,42 @@ QToolBox::tab {
                             </property>
                            </widget>
                           </item>
-                          <item>
+                          <item alignment="Qt::AlignLeft">
                            <widget class="QLabel" name="labelNoti">
+                            <property name="sizePolicy">
+                             <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+                              <horstretch>0</horstretch>
+                              <verstretch>0</verstretch>
+                             </sizepolicy>
+                            </property>
                             <property name="minimumSize">
                              <size>
-                              <width>200</width>
+                              <width>0</width>
                               <height>0</height>
+                             </size>
+                            </property>
+                            <property name="maximumSize">
+                             <size>
+                              <width>125</width>
+                              <height>16777215</height>
                              </size>
                             </property>
                             <property name="font">
                              <font>
-                              <pointsize>12</pointsize>
+                              <pointsize>8</pointsize>
                               <weight>75</weight>
                               <bold>true</bold>
                              </font>
                             </property>
                             <property name="text">
                              <string>Notifications</string>
+                            </property>
+                           </widget>
+                          </item>
+                          <item alignment="Qt::AlignLeft">
+                           <widget class="QLabel" name="label_2">
+                            <property name="text">
+                             <string>(20)</string>
                             </property>
                            </widget>
                           </item>
@@ -938,9 +1017,16 @@ QToolBox::tab {
                               <height>15</height>
                              </size>
                             </property>
+                            <property name="maximumSize">
+                             <size>
+                              <width>16777210</width>
+                              <height>16777215</height>
+                             </size>
+                            </property>
                             <property name="font">
                              <font>
                               <family>Segoe UI Emoji</family>
+                              <pointsize>5</pointsize>
                               <weight>75</weight>
                               <bold>true</bold>
                              </font>
@@ -962,121 +1048,6 @@ QToolBox::tab {
                           </item>
                          </layout>
                         </widget>
-                       </item>
-                       <item>
-                        <widget class="QFrame" name="frame_9">
-                         <property name="sizePolicy">
-                          <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
-                           <horstretch>0</horstretch>
-                           <verstretch>0</verstretch>
-                          </sizepolicy>
-                         </property>
-                         <property name="frameShape">
-                          <enum>QFrame::StyledPanel</enum>
-                         </property>
-                         <property name="frameShadow">
-                          <enum>QFrame::Raised</enum>
-                         </property>
-                         <layout class="QGridLayout" name="gridLayout">
-                          <item row="1" column="1">
-                           <widget class="QLabel" name="label_11">
-                            <property name="font">
-                             <font>
-                              <pointsize>9</pointsize>
-                              <weight>50</weight>
-                              <bold>false</bold>
-                             </font>
-                            </property>
-                            <property name="text">
-                             <string>Humidity is low</string>
-                            </property>
-                           </widget>
-                          </item>
-                          <item row="0" column="1">
-                           <widget class="QLabel" name="label_10">
-                            <property name="font">
-                             <font>
-                              <pointsize>9</pointsize>
-                              <weight>50</weight>
-                              <bold>false</bold>
-                             </font>
-                            </property>
-                            <property name="text">
-                             <string>Temperature is high</string>
-                            </property>
-                           </widget>
-                          </item>
-                          <item row="0" column="0">
-                           <widget class="QLabel" name="label_5">
-                            <property name="font">
-                             <font>
-                              <pointsize>9</pointsize>
-                              <weight>50</weight>
-                              <bold>false</bold>
-                             </font>
-                            </property>
-                            <property name="text">
-                             <string>No.1</string>
-                            </property>
-                           </widget>
-                          </item>
-                          <item row="1" column="0">
-                           <widget class="QLabel" name="label_8">
-                            <property name="font">
-                             <font>
-                              <pointsize>9</pointsize>
-                              <weight>50</weight>
-                              <bold>false</bold>
-                             </font>
-                            </property>
-                            <property name="text">
-                             <string>No.2</string>
-                            </property>
-                           </widget>
-                          </item>
-                          <item row="2" column="1">
-                           <widget class="QLabel" name="label_14">
-                            <property name="font">
-                             <font>
-                              <pointsize>9</pointsize>
-                              <weight>50</weight>
-                              <bold>false</bold>
-                             </font>
-                            </property>
-                            <property name="text">
-                             <string>PM2.5 &gt; 0.5</string>
-                            </property>
-                           </widget>
-                          </item>
-                          <item row="2" column="0">
-                           <widget class="QLabel" name="label_9">
-                            <property name="font">
-                             <font>
-                              <pointsize>9</pointsize>
-                              <weight>50</weight>
-                              <bold>false</bold>
-                             </font>
-                            </property>
-                            <property name="text">
-                             <string>No.3</string>
-                            </property>
-                           </widget>
-                          </item>
-                         </layout>
-                        </widget>
-                       </item>
-                       <item>
-                        <spacer name="verticalSpacer">
-                         <property name="orientation">
-                          <enum>Qt::Vertical</enum>
-                         </property>
-                         <property name="sizeHint" stdset="0">
-                          <size>
-                           <width>20</width>
-                           <height>68</height>
-                          </size>
-                         </property>
-                        </spacer>
                        </item>
                       </layout>
                      </widget>
@@ -1101,6 +1072,12 @@ QToolBox::tab {
                        </property>
                        <item>
                         <widget class="QFrame" name="frame_11">
+                         <property name="sizePolicy">
+                          <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                           <horstretch>0</horstretch>
+                           <verstretch>0</verstretch>
+                          </sizepolicy>
+                         </property>
                          <property name="frameShape">
                           <enum>QFrame::StyledPanel</enum>
                          </property>
@@ -1134,7 +1111,7 @@ QToolBox::tab {
                             </property>
                             <property name="font">
                              <font>
-                              <pointsize>12</pointsize>
+                              <pointsize>8</pointsize>
                               <weight>75</weight>
                               <bold>true</bold>
                              </font>
@@ -1149,6 +1126,17 @@ QToolBox::tab {
                        </item>
                        <item>
                         <widget class="QFrame" name="frame_12">
+                         <property name="sizePolicy">
+                          <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+                           <horstretch>0</horstretch>
+                           <verstretch>0</verstretch>
+                          </sizepolicy>
+                         </property>
+                         <property name="font">
+                          <font>
+                           <pointsize>8</pointsize>
+                          </font>
+                         </property>
                          <property name="frameShape">
                           <enum>QFrame::StyledPanel</enum>
                          </property>
@@ -1156,20 +1144,25 @@ QToolBox::tab {
                           <enum>QFrame::Raised</enum>
                          </property>
                          <layout class="QGridLayout" name="gridLayout_2">
-                          <item row="1" column="2">
-                           <widget class="QCheckBox" name="checkBox_2">
+                          <property name="topMargin">
+                           <number>0</number>
+                          </property>
+                          <property name="rightMargin">
+                           <number>11</number>
+                          </property>
+                          <property name="bottomMargin">
+                           <number>200</number>
+                          </property>
+                          <item row="2" column="2">
+                           <widget class="QCheckBox" name="checkBox_3">
+                            <property name="maximumSize">
+                             <size>
+                              <width>50</width>
+                              <height>40</height>
+                             </size>
+                            </property>
                             <property name="text">
                              <string/>
-                            </property>
-                           </widget>
-                          </item>
-                          <item row="1" column="0">
-                           <widget class="QLabel" name="label_19">
-                            <property name="text">
-                             <string/>
-                            </property>
-                            <property name="pixmap">
-                             <pixmap resource="resources.qrc">:/icon-purple/icon-purple/toggle-left.svg</pixmap>
                             </property>
                            </widget>
                           </item>
@@ -1183,7 +1176,7 @@ QToolBox::tab {
                             </property>
                             <property name="font">
                              <font>
-                              <pointsize>8</pointsize>
+                              <pointsize>5</pointsize>
                               <weight>75</weight>
                               <bold>true</bold>
                              </font>
@@ -1193,10 +1186,38 @@ QToolBox::tab {
                             </property>
                            </widget>
                           </item>
+                          <item row="2" column="1">
+                           <widget class="QLabel" name="label_21">
+                            <property name="font">
+                             <font>
+                              <pointsize>5</pointsize>
+                              <weight>75</weight>
+                              <bold>true</bold>
+                             </font>
+                            </property>
+                            <property name="text">
+                             <string>BUTTON 3</string>
+                            </property>
+                           </widget>
+                          </item>
+                          <item row="1" column="2">
+                           <widget class="QCheckBox" name="checkBox_2">
+                            <property name="maximumSize">
+                             <size>
+                              <width>50</width>
+                              <height>40</height>
+                             </size>
+                            </property>
+                            <property name="text">
+                             <string/>
+                            </property>
+                           </widget>
+                          </item>
                           <item row="1" column="1">
                            <widget class="QLabel" name="label_20">
                             <property name="font">
                              <font>
+                              <pointsize>5</pointsize>
                               <weight>75</weight>
                               <bold>true</bold>
                              </font>
@@ -1215,6 +1236,12 @@ QToolBox::tab {
                              <size>
                               <width>0</width>
                               <height>0</height>
+                             </size>
+                            </property>
+                            <property name="maximumSize">
+                             <size>
+                              <width>50</width>
+                              <height>40</height>
                              </size>
                             </property>
                             <property name="font">
@@ -1238,7 +1265,27 @@ QToolBox::tab {
                             </property>
                            </widget>
                           </item>
-                          <item row="0" column="0" alignment="Qt::AlignLeft">
+                          <item row="2" column="0">
+                           <widget class="QLabel" name="label_22">
+                            <property name="text">
+                             <string/>
+                            </property>
+                            <property name="pixmap">
+                             <pixmap resource="resources.qrc">:/icon-purple/icon-purple/circle.svg</pixmap>
+                            </property>
+                           </widget>
+                          </item>
+                          <item row="1" column="0">
+                           <widget class="QLabel" name="label_19">
+                            <property name="text">
+                             <string/>
+                            </property>
+                            <property name="pixmap">
+                             <pixmap resource="resources.qrc">:/icon-purple/icon-purple/circle.svg</pixmap>
+                            </property>
+                           </widget>
+                          </item>
+                          <item row="0" column="0">
                            <widget class="QLabel" name="label_17">
                             <property name="minimumSize">
                              <size>
@@ -1246,41 +1293,16 @@ QToolBox::tab {
                               <height>0</height>
                              </size>
                             </property>
-                            <property name="text">
-                             <string/>
-                            </property>
-                            <property name="pixmap">
-                             <pixmap resource="resources.qrc">:/icon-purple/icon-purple/toggle-left.svg</pixmap>
-                            </property>
-                           </widget>
-                          </item>
-                          <item row="2" column="2">
-                           <widget class="QCheckBox" name="checkBox_3">
-                            <property name="text">
-                             <string/>
-                            </property>
-                           </widget>
-                          </item>
-                          <item row="2" column="1">
-                           <widget class="QLabel" name="label_21">
                             <property name="font">
                              <font>
-                              <weight>75</weight>
-                              <bold>true</bold>
+                              <pointsize>5</pointsize>
                              </font>
                             </property>
                             <property name="text">
-                             <string>BUTTON 3</string>
-                            </property>
-                           </widget>
-                          </item>
-                          <item row="2" column="0">
-                           <widget class="QLabel" name="label_22">
-                            <property name="text">
                              <string/>
                             </property>
                             <property name="pixmap">
-                             <pixmap resource="resources.qrc">:/icon-purple/icon-purple/toggle-left.svg</pixmap>
+                             <pixmap resource="resources.qrc">:/icon-purple/icon-purple/circle.svg</pixmap>
                             </property>
                            </widget>
                           </item>
@@ -1346,7 +1368,7 @@ QToolBox::tab {
                    <property name="font">
                     <font>
                      <family>Segoe UI</family>
-                     <pointsize>15</pointsize>
+                     <pointsize>10</pointsize>
                      <weight>75</weight>
                      <bold>true</bold>
                     </font>
@@ -1382,23 +1404,6 @@ QToolBox::tab {
                  <property name="bottomMargin">
                   <number>0</number>
                  </property>
-                 <item>
-                  <widget class="QPushButton" name="accountButton_2">
-                   <property name="text">
-                    <string/>
-                   </property>
-                   <property name="icon">
-                    <iconset resource="resources.qrc">
-                     <normaloff>:/icon blue/icon blue/user.svg</normaloff>:/icon blue/icon blue/user.svg</iconset>
-                   </property>
-                   <property name="iconSize">
-                    <size>
-                     <width>30</width>
-                     <height>30</height>
-                    </size>
-                   </property>
-                  </widget>
-                 </item>
                 </layout>
                </widget>
               </item>
@@ -1448,8 +1453,8 @@ QToolBox::tab {
                   <rect>
                    <x>0</x>
                    <y>0</y>
-                   <width>727</width>
-                   <height>634</height>
+                   <width>598</width>
+                   <height>465</height>
                   </rect>
                  </property>
                  <property name="styleSheet">
@@ -1469,7 +1474,7 @@ QToolBox::tab {
                     </property>
                     <property name="font">
                      <font>
-                      <pointsize>11</pointsize>
+                      <pointsize>7</pointsize>
                       <weight>75</weight>
                       <bold>true</bold>
                      </font>
@@ -1478,7 +1483,7 @@ QToolBox::tab {
                      <string notr="true"/>
                     </property>
                     <property name="currentIndex">
-                     <number>0</number>
+                     <number>1</number>
                     </property>
                     <property name="tabSpacing">
                      <number>8</number>
@@ -1488,8 +1493,8 @@ QToolBox::tab {
                       <rect>
                        <x>0</x>
                        <y>0</y>
-                       <width>705</width>
-                       <height>536</height>
+                       <width>129</width>
+                       <height>129</height>
                       </rect>
                      </property>
                      <attribute name="icon">
@@ -1522,8 +1527,8 @@ QToolBox::tab {
                       <rect>
                        <x>0</x>
                        <y>0</y>
-                       <width>705</width>
-                       <height>536</height>
+                       <width>576</width>
+                       <height>371</height>
                       </rect>
                      </property>
                      <attribute name="icon">
@@ -1607,7 +1612,7 @@ QToolBox::tab {
                    <property name="font">
                     <font>
                      <family>Segoe UI</family>
-                     <pointsize>15</pointsize>
+                     <pointsize>10</pointsize>
                      <weight>75</weight>
                      <bold>true</bold>
                     </font>
@@ -1643,23 +1648,6 @@ QToolBox::tab {
                  <property name="bottomMargin">
                   <number>0</number>
                  </property>
-                 <item>
-                  <widget class="QPushButton" name="accountButton_3">
-                   <property name="text">
-                    <string/>
-                   </property>
-                   <property name="icon">
-                    <iconset resource="resources.qrc">
-                     <normaloff>:/icon blue/icon blue/user.svg</normaloff>:/icon blue/icon blue/user.svg</iconset>
-                   </property>
-                   <property name="iconSize">
-                    <size>
-                     <width>30</width>
-                     <height>30</height>
-                    </size>
-                   </property>
-                  </widget>
-                 </item>
                 </layout>
                </widget>
               </item>
@@ -1694,6 +1682,7 @@ QToolBox::tab {
  </widget>
  <resources>
   <include location="resources.qrc"/>
+  <include location="C:/Users/ACER/.designer/backup/resources.qrc"/>
  </resources>
  <connections/>
 </ui>

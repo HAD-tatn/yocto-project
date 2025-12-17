@@ -577,6 +577,10 @@
     <file>icon-purple/zoom-in.svg</file>
     <file>icon-purple/zoom-out.svg</file>
   </qresource>
+  <qresource prefix="db">
+    <file>1.png</file>
+    <file>2.png</file>
+  </qresource>
   <qresource prefix="icon-iot">
     <file>icon-iot/dust.svg</file>
     <file>icon-iot/humidity.svg</file>

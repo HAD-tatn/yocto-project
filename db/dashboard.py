@@ -1,10 +1,16 @@
 import sys
+import os
 from PyQt5.QtCore import *
 from PyQt5.QtGui import *
 from PyQt5.QtWidgets import *
 
 from ui_untitled import Ui_MainWindow   # file .ui đã convert
-
+os.environ['QT_QPA_PLATFORM'] = 'eglfs'
+os.environ['QT_QPA_EGLFS_ALWAYS_SET_MODE'] = '1'
+os.environ['QT_QPA_EGLFS_FORCE_888'] = '1'
+os.environ['QT_QPA_EGLFS_WIDTH'] = '1920'
+os.environ['QT_QPA_EGLFS_HEIGHT'] = '1080'
+os.environ['QT_QPA_EGLFS_HIDECURSOR'] = '1'
 class TimeColumnDelegate(QStyledItemDelegate):
     def paint(self, painter, option, index):
         opt = QStyleOptionViewItem(option)
@@ -24,7 +30,7 @@ class TimeColumnDelegate(QStyledItemDelegate):
         # Vẽ text, focus, v.v.
         super().paint(painter, opt, index)
 
-     
+    
 class MainWindow(QMainWindow):
     def __init__(self):
         super().__init__()
@@ -36,7 +42,10 @@ class MainWindow(QMainWindow):
         #Load Table
         self.setupTableView_1()   
         self.setupTableView_2()     
-  
+
+        self.ui.checkBox.stateChanged.connect(lambda state: self.toggleRelay(state, "BUTTON 1"))
+        self.ui.checkBox_2.stateChanged.connect(lambda state: self.toggleRelay(state, "BUTTON 2"))
+        self.ui.checkBox_3.stateChanged.connect(lambda state: self.toggleRelay(state, "BUTTON 3"))
 
         # =======================
         # PAGE SWITCH
@@ -52,12 +61,18 @@ class MainWindow(QMainWindow):
 
         # Mặc định nút Home active
         self.setActiveButton(self.ui.homeBtn)
-        self.ui.stackedWidget.setCurrentIndex(0)
+        self.ui.stackedWidget.setCurrentIndex(0)  
         self.show()
 
     # =======================
     # SET ACTIVE BUTTON
     # =======================
+    def toggleRelay(self, state, name):
+        if state == Qt.Checked:
+            print(f"{name}: ON")
+        else:
+            print(f"{name}: OFF")
+        
     def setActiveButton(self, btn):
         # Reset style các nút
         for b in [self.ui.homeBtn, self.ui.sensorBtn, self.ui.notiBtn, self.ui.vaBtn]:
@@ -70,7 +85,7 @@ class MainWindow(QMainWindow):
                 color: #9751c9;
                 padding: 5px;
                 text-align:left;
-                border-top-left-radius:1s0px;
+                border-top-left-radius:10px;
             }
         """)
 
@@ -108,7 +123,13 @@ class MainWindow(QMainWindow):
         
         # Không cho sửa
         self.ui.tableView.setEditTriggers(QAbstractItemView.NoEditTriggers)
+        font = QFont()
+        font.setPointSize(6)
+        self.ui.tableView.setFont(font)
 
+        header_font = QFont()
+        header_font.setPointSize(8)
+        self.ui.tableView.horizontalHeader().setFont(header_font)
         # Kẻ line + style
         self.ui.tableView.setStyleSheet("""
             QTableView {
@@ -193,6 +214,14 @@ class MainWindow(QMainWindow):
         # Không cho sửa
         self.ui.tableView_2.setEditTriggers(QAbstractItemView.NoEditTriggers)
 
+        font = QFont()
+        font.setPointSize(6)
+        self.ui.tableView_2.setFont(font)
+
+        header_font = QFont()
+        header_font.setPointSize(8)
+        self.ui.tableView_2.horizontalHeader().setFont(header_font)
+        
         # Kẻ line + style
         self.ui.tableView_2.setStyleSheet("""
             QTableView {
